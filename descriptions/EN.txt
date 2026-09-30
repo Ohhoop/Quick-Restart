@@ -77,7 +77,7 @@ Q: Does it work in multiplayer?
 A: Yes, same world Quick Restart works in multiplayer. Fresh world Quick Restart is single-player only and also disabled in split-screen. (You don't want to delete the world on which everyone else is playing!... Right?)
 
 Q: Does this give you back the XP you had before dying?
-A: No. Your character is saved at creation, so you restart with your original starting skills and XP. Everything earned during the run is lost. It is a quick restart, not a resurrection.
+A: No. Your character is saved at creation, so you restart with your original starting skills and XP. Everything earned during the run is lost. It is a restart, not a resurrection.
 
 Q: I have a bug, what should I do?
 A: Post a message in the Bugs discussion with your mod list and a description of what happened. If you can, paste the error from your console.txt (found in C:\Users\YourName\Zomboid), it makes finding the cause much faster.

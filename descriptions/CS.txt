@@ -77,7 +77,7 @@ Q: Funguje to v multiplayeru?
 A: Ano, Quick Restart ve stejném světě v multiplayeru funguje. Quick Restart do nového světa je pouze pro jednoho hráče a je také vypnutý na rozdělené obrazovce. (Nechcete přece smazat svět, na kterém hrají všichni ostatní!... Že ne?)
 
 Q: Vrátí mi to XP, které jsem měl před smrtí?
-A: Ne. Postava se ukládá při vytvoření, takže začínáte znovu se svými původními počátečními dovednostmi a XP. Vše, co jste během hry získali, je ztraceno. Je to rychlý restart, ne vzkříšení.
+A: Ne. Postava se ukládá při vytvoření, takže začínáte znovu se svými původními počátečními dovednostmi a XP. Vše, co jste během hry získali, je ztraceno. Je to restart, ne vzkříšení.
 
 Q: Mám bug, co mám dělat?
 A: Napište zprávu do diskuse Bugs se seznamem svých modů a popisem toho, co se stalo. Pokud můžete, vložte chybu ze svého console.txt (najdete ho v C:\Users\VaseJmeno\Zomboid), výrazně to urychlí hledání příčiny.

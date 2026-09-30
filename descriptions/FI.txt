@@ -77,7 +77,7 @@ Q: Toimiiko se moninpelissä?
 A: Kyllä, saman maailman Quick Restart toimii moninpelissä. Uuden maailman Quick Restart on vain yksinpeliin, ja se on pois käytöstä myös jaetulla näytöllä. (Et kai halua poistaa maailmaa, jossa kaikki muut pelaavat!... Ethän?)
 
 Q: Saako kuolemaa edeltäneet XP:t takaisin?
-A: Ei. Hahmosi tallennetaan luonnin yhteydessä, joten aloitat alkuperäisillä aloitustaidoilla ja XP:llä. Kaikki kierroksen aikana ansaittu menetetään. Tämä on nopea uudelleenaloitus, ei ylösnousemus.
+A: Ei. Hahmosi tallennetaan luonnin yhteydessä, joten aloitat alkuperäisillä aloitustaidoilla ja XP:llä. Kaikki kierroksen aikana ansaittu menetetään. Tämä on uudelleenaloitus, ei ylösnousemus.
 
 Q: Löysin bugin, mitä teen?
 A: Kirjoita viesti Bugs-keskusteluun modilistasi ja kuvauksen kanssa siitä, mitä tapahtui. Jos pystyt, liitä virhe console.txt-tiedostostasi (sijainti C:\Users\Nimesi\Zomboid), se nopeuttaa syyn löytämistä huomattavasti.

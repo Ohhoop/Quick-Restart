@@ -77,7 +77,7 @@ Q: Çok oyunculu modda çalışıyor mu?
 A: Evet, aynı dünyada Quick Restart çok oyunculu modda çalışır. Yeni dünyada Quick Restart yalnızca tek oyunculudur ve bölünmüş ekranda da devre dışıdır. (Herkesin oynadığı dünyayı silmek istemezsiniz!... Değil mi?)
 
 Q: Ölmeden önceki XP'mi geri veriyor mu?
-A: Hayır. Karakteriniz oluşturma sırasında kaydedilir, bu yüzden orijinal başlangıç becerileri ve XP ile yeniden başlarsınız. Oyun boyunca kazanılan her şey kaybolur. Bu hızlı bir yeniden başlatma, diriliş değil.
+A: Hayır. Karakteriniz oluşturma sırasında kaydedilir, bu yüzden orijinal başlangıç becerileri ve XP ile yeniden başlarsınız. Oyun boyunca kazanılan her şey kaybolur. Bu bir yeniden başlatma, diriliş değil.
 
 Q: Bir hata buldum, ne yapmalıyım?
 A: Mod listeniz ve olanların açıklamasıyla birlikte Bugs tartışmasına bir mesaj yazın. Mümkünse console.txt dosyanızdaki hatayı yapıştırın (C:\Users\KullanıcıAdınız\Zomboid içinde), bu nedeni bulmayı çok hızlandırır.

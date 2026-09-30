@@ -77,7 +77,7 @@ Q: Funcționează în multiplayer?
 A: Da, Quick Restart în aceeași lume funcționează în multiplayer. Quick Restart în lume nouă este doar pentru single-player și este dezactivat și în split-screen. (Doar nu vrei să ștergi lumea pe care joacă toți ceilalți!... Nu-i așa?)
 
 Q: Îmi dă înapoi XP-ul pe care îl aveam înainte să mor?
-A: Nu. Personajul este salvat la creare, așa că o iei de la capăt cu abilitățile și XP-ul de început. Tot ce ai câștigat în timpul partidei se pierde. Este un restart rapid, nu o înviere.
+A: Nu. Personajul este salvat la creare, așa că o iei de la capăt cu abilitățile și XP-ul de început. Tot ce ai câștigat în timpul partidei se pierde. Este un restart, nu o înviere.
 
 Q: Am găsit un bug, ce ar trebui să fac?
 A: Postează un mesaj în discuția Bugs cu lista ta de moduri și o descriere a ce s-a întâmplat. Dacă poți, lipește eroarea din console.txt (în C:\Users\NumeleTău\Zomboid), ajută mult la găsirea cauzei.

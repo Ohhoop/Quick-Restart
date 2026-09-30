@@ -77,7 +77,7 @@ Q: Működik többjátékos módban?
 A: Igen, az ugyanabban a világban történő Quick Restart működik többjátékos módban. Az új világos Quick Restart csak egyjátékos módban érhető el, és osztott képernyőn is le van tiltva. (Ugye nem akarod törölni a világot, amelyen mindenki más játszik!... Ugye?)
 
 Q: Visszakapom az XP-t, amim a halálom előtt volt?
-A: Nem. A karakter a létrehozáskor mentődik, így az eredeti kezdő képességeiddel és XP-ddel kezdesz újra. Minden, amit a játék során szereztél, elvész. Ez gyors újrakezdés, nem feltámasztás.
+A: Nem. A karakter a létrehozáskor mentődik, így az eredeti kezdő képességeiddel és XP-ddel kezdesz újra. Minden, amit a játék során szereztél, elvész. Ez újrakezdés, nem feltámasztás.
 
 Q: Hibát találtam, mit tegyek?
 A: Írj a Bugs beszélgetésbe a modlistáddal és annak leírásával, mi történt. Ha tudod, másold be a hibát a console.txt fájlodból (a C:\Users\Felhasznalonev\Zomboid mappában található), ez sokkal gyorsabbá teszi az ok megtalálását.

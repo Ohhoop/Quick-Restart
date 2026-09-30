@@ -77,7 +77,7 @@ Q: Funciona em multijogador?
 A: Sim, o Quick Restart no mesmo mundo funciona em multijogador. O Quick Restart em mundo novo é só para um jogador e também está desativado em ecrã dividido. (Não queres apagar o mundo onde todos os outros estão a jogar!... Certo?)
 
 Q: Isto devolve-me a XP que tinha antes de morrer?
-A: Não. A personagem é guardada na criação, por isso recomeças com as perícias e a XP iniciais. Tudo o que ganhaste durante a partida perde-se. É um reinício rápido, não uma ressurreição.
+A: Não. A personagem é guardada na criação, por isso recomeças com as perícias e a XP iniciais. Tudo o que ganhaste durante a partida perde-se. É um reinício, não uma ressurreição.
 
 Q: Tenho um bug, o que devo fazer?
 A: Publica uma mensagem na discussão Bugs com a tua lista de mods e uma descrição do que aconteceu. Se puderes, cola o erro do teu console.txt (em C:\Users\OTeuNome\Zomboid), ajuda muito a encontrar a causa.

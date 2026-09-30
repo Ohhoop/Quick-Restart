@@ -77,7 +77,7 @@ Q: Czy to działa w trybie wieloosobowym?
 A: Tak, Quick Restart w tym samym świecie działa w trybie wieloosobowym. Quick Restart w nowym świecie jest dostępny tylko w grze jednoosobowej i jest też wyłączony na podzielonym ekranie. (Nie chcesz przecież usunąć świata, na którym grają wszyscy inni!... Prawda?)
 
 Q: Czy odzyskam XP, które miałem przed śmiercią?
-A: Nie. Postać jest zapisywana przy tworzeniu, więc zaczynasz od nowa z oryginalnymi umiejętnościami startowymi i XP. Wszystko, co zdobyłeś w trakcie rozgrywki, przepada. To szybki restart, nie wskrzeszenie.
+A: Nie. Postać jest zapisywana przy tworzeniu, więc zaczynasz od nowa z oryginalnymi umiejętnościami startowymi i XP. Wszystko, co zdobyłeś w trakcie rozgrywki, przepada. To restart, nie wskrzeszenie.
 
 Q: Mam błąd, co mam zrobić?
 A: Napisz w dyskusji Bugs, podając listę modów i opis tego, co się stało. Jeśli możesz, wklej błąd ze swojego console.txt (znajdziesz go w C:\Users\TwojaNazwa\Zomboid), to znacznie przyspiesza znalezienie przyczyny.

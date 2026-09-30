@@ -77,7 +77,7 @@ Q: Werkt het in multiplayer?
 A: Ja, Quick Restart in dezelfde wereld werkt in multiplayer. Quick Restart in een nieuwe wereld is alleen voor singleplayer en is ook uitgeschakeld in splitscreen. (Je wilt toch niet de wereld verwijderen waarin iedereen speelt!... Toch?)
 
 Q: Krijg je de XP terug die je had voordat je stierf?
-A: Nee. Je personage wordt bij het aanmaken opgeslagen, dus je begint opnieuw met je oorspronkelijke startvaardigheden en XP. Alles wat je tijdens de run hebt verdiend, gaat verloren. Het is een snelle herstart, geen wederopstanding.
+A: Nee. Je personage wordt bij het aanmaken opgeslagen, dus je begint opnieuw met je oorspronkelijke startvaardigheden en XP. Alles wat je tijdens de run hebt verdiend, gaat verloren. Het is een herstart, geen wederopstanding.
 
 Q: Ik heb een bug, wat moet ik doen?
 A: Plaats een bericht in de Bugs-discussie met je modlijst en een beschrijving van wat er gebeurde. Plak als het kan de fout uit je console.txt (te vinden in C:\Users\JouwNaam\Zomboid), dan is de oorzaak veel sneller gevonden.

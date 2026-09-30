@@ -77,7 +77,7 @@ Q: Adakah ia berfungsi dalam multiplayer?
 A: Ya, Quick Restart dunia yang sama berfungsi dalam multiplayer. Quick Restart dunia baharu hanya untuk pemain tunggal dan juga dilumpuhkan dalam skrin pisah. (Anda tidak mahu memadam dunia tempat semua orang bermain!... Betul tak?)
 
 Q: Adakah XP sebelum mati dikembalikan?
-A: Tidak. Watak anda disimpan semasa penciptaan, jadi anda bermula semula dengan kemahiran dan XP permulaan. Semua yang diperoleh sepanjang permainan hilang. Ini mula semula pantas, bukan kebangkitan semula.
+A: Tidak. Watak anda disimpan semasa penciptaan, jadi anda bermula semula dengan kemahiran dan XP permulaan. Semua yang diperoleh sepanjang permainan hilang. Ini mula semula, bukan kebangkitan semula.
 
 Q: Saya menemui pepijat, apa yang perlu saya lakukan?
 A: Hantar mesej dalam perbincangan Bugs bersama senarai mod anda dan penerangan tentang apa yang berlaku. Jika boleh, tampal ralat daripada console.txt anda (di C:\Users\NamaAnda\Zomboid), ia menjadikan punca lebih cepat ditemui.

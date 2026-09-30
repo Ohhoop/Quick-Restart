@@ -77,7 +77,7 @@ Q: Virker det i multiplayer?
 A: Ja, Quick Restart i samme verden virker i multiplayer. Quick Restart i en ny verden er kun til singleplayer og er også deaktiveret i delt skærm. (Du vil jo ikke slette den verden, alle andre spiller i!... Vel?)
 
 Q: Får man den XP tilbage, man havde, før man døde?
-A: Nej. Din karakter gemmes ved oprettelsen, så du starter forfra med dine oprindelige startfærdigheder og XP. Alt, hvad du har optjent i løbet af runden, går tabt. Det er en hurtig genstart, ikke en genopstandelse.
+A: Nej. Din karakter gemmes ved oprettelsen, så du starter forfra med dine oprindelige startfærdigheder og XP. Alt, hvad du har optjent i løbet af runden, går tabt. Det er en genstart, ikke en genopstandelse.
 
 Q: Jeg har fundet en fejl, hvad skal jeg gøre?
 A: Skriv en besked i Bugs-diskussionen med din modliste og en beskrivelse af, hvad der skete. Hvis du kan, så indsæt fejlen fra din console.txt (findes i C:\Users\DitNavn\Zomboid), det gør det meget hurtigere at finde årsagen.

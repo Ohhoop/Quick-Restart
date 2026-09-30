@@ -1,0 +1,107 @@
+[img]https://i.imgur.com/Pu2nMwd.gif[/img]
+
+Dodaje panel Quick Restart na ekranie śmierci, który przywraca cię do gry znacznie szybciej niż zwykły proces.
+Dwie opcje: restart w NOWYM ŚWIECIE lub odrodzenie w TYM SAMYM ŚWIECIE, obie przywracają twoją oryginalną postać.
+
+Postać jest zapisywana przy TWORZENIU i automatycznie przywracana:
+- Imię, płeć, zawód
+- Cechy, umiejętności i znane przepisy
+- Pełny wygląd: fryzura, broda, kolor włosów, odcień skóry, owłosienie ciała, odrost włosów, zarost
+- Cała noszona odzież z kolorami i wariantami tekstur
+- Typ głosu, wysokość i prefiks
+- Waga postaci
+- Region startowy
+
+Ustawienia piaskownicy są zapisywane automatycznie krótko po pojawieniu się w świecie. Jeśli zmieniły się od utworzenia postaci, przycisk NOWY ŚWIAT poprosi cię o wybór między ustawieniami oryginalnymi a aktualnymi.
+
+Jeśli zamiast Quick Restart wybierzesz "Kontynuuj z nową postacią", ta nowa postać stanie się nowym oryginałem wczytywanym przy następnym Quick Restart.
+
+Jeśli ten mod zostanie włączony w trakcie rozgrywki, przyciski Quick Restart będą nieaktywne, ponieważ dane postaci nie zostały zapisane (zapisują się przy tworzeniu postaci). Użyj raz "Kontynuuj z nową postacią", a Quick Restart będzie dostępny od następnej śmierci.
+
+[img]https://i.imgur.com/gqWYFPL.gif[/img]
+
+Przycisk z kostką na panelu Quick Restart otwiera okno OPCJE LOSOWANIA. Każdą kategorię można ustawić na Zachowaj (przywraca zapisaną postać) lub Losowo:
+- Płeć: losuje płeć; wszystko, co da się przenieść z wyglądu, zostaje zachowane
+- Wygląd: losuje fryzurę, brodę, kolor włosów i odcień skóry
+- Imię: losuje nowe imię i nazwisko
+- Zawód: losuje zawód; cechy są losowane razem z nim, bo nowy zawód zmienia budżet punktów
+- Cechy: losuje nowy zestaw cech z poszanowaniem punktów cech świata i wzajemnych wykluczeń
+- Odzież: ubiera cię w losowy strój z puli strojów kreatora postaci
+- Region startowy: losuje region spośród dostępnych w zapisie, łącznie z mapami z modów
+
+Tylko NOWY ŚWIAT:
+- Seed: generuje nowy seed świata
+- Zombie: całkowicie losuje ustawienia zombie
+- Ustawienia piaskownicy: całkowicie losuje całą resztę, zombie podlegają opcji Zombie. To NAPRAWDĘ losowe i świat może okazać się skrajny lub ledwo grywalny. Zostałeś ostrzeżony... dwa razy, bo jest też okno z ostrzeżeniem.
+- Ustawienia piaskownicy modów: całkowicie losuje opcje piaskownicy dodane przez twoje inne mody (widoczne tylko, gdy co najmniej jeden aktywny mod dodaje opcje piaskownicy)
+
+[img]https://i.imgur.com/Y6jzQpX.png[/img]
+
+Quick Restart ingeruje w wiele mechanik gry. Odczytuje i nadpisuje:
+- Tworzenie postaci: imię, płeć, zawód i cechy
+- Umiejętności, XP i znane przepisy
+- Wygląd i głos
+- Noszoną odzież i przedmioty zestawu startowego
+- Dane modów postaci i deskryptora (dzięki nim modowana personalizacja postaci zwykle przetrwa restart)
+- Regiony startowe i wybór mapy
+- Tworzenie świata: ustawienia piaskownicy i seed świata
+- Domyślną listę modów (tylko NOWY ŚWIAT, kopia zapasowa i przywracanie są automatyczne)
+- Interfejs ekranu śmierci
+
+Mod, który zmienia jedną z tych mechanik w sposób, jakiego Quick Restart się nie spodziewa, może powodować problemy z kompatybilnością. Najczęstszy: dane postaci lub świata nie mogą zostać zapisane, a po śmierci przyciski Quick Restart informują, że nie zapisano żadnych danych. Jeśli ci się to przydarzy, napisz w dyskusji Bugs i podaj swoją listę modów, zobaczę, co da się zrobić, aby mod obsługiwał więcej scenariuszy.
+
+Przedmioty z modów, których nie da się zapisać, są po prostu pomijane: nie zostaną przywrócone przy Quick Restart, cała reszta powinna.
+
+[img]https://i.imgur.com/HQ2KJLs.png[/img]
+
+Gra nie zwalnia całej pamięci, gdy świat jest wczytywany ponownie. To problem silnika: występuje z tym modem i bez niego, ale częste restarty sprawiają, że ujawnia się szybciej.
+
+Quick Restart pilnuje tego za ciebie:
+- Szacuje, ile restartów zostało, zanim grze zabraknie pamięci.
+- Gdy ta liczba spada, ostrzeżenie pojawia się w chwili użycia Quick Restart, nigdy w trakcie gry.
+- Możesz wtedy zamknąć grę (nowy świat wczyta się sam, gdy tylko ją ponownie uruchomisz) albo kontynuować bez zamykania.
+- Szacunek z czasem sam dopasowuje się do twojego komputera i listy modów.
+
+Jeśli uruchomisz grę później, a nie od razu, okno w menu głównym zapyta, czy nadal chcesz ten oczekujący nowy świat.
+
+Wskazówka: im więcej masz zombie, tym szybciej będziesz musiał zrestartować grę, pamiętaj o tym, konfigurując kolejną rozgrywkę!
+
+Mam nadzieję, że The Indie Stone szybko to naprawi i będę mógł to usunąć, ale na razie to najlepsze, co mogłem zrobić, żeby złagodzić problem! Daj znać, jak się sprawdza.
+
+[img]https://i.imgur.com/f9qefDM.png[/img]
+
+Q: Czy usunąłeś zwykłe opcje po śmierci?
+A: Nie, wszystkie nadal tam są. Quick Restart usuwa nawet opóźnienie z wersji vanilla, więc pojawiają się od razu, zamiast powoli się wyłaniać.
+
+Q: Czy to działa w trybie wieloosobowym?
+A: Tak, Quick Restart w tym samym świecie działa w trybie wieloosobowym. Quick Restart w nowym świecie jest dostępny tylko w grze jednoosobowej i jest też wyłączony na podzielonym ekranie. (Nie chcesz przecież usunąć świata, na którym grają wszyscy inni!... Prawda?)
+
+Q: Czy odzyskam XP, które miałem przed śmiercią?
+A: Nie. Postać jest zapisywana przy tworzeniu, więc zaczynasz od nowa z oryginalnymi umiejętnościami startowymi i XP. Wszystko, co zdobyłeś w trakcie rozgrywki, przepada. To szybki restart, nie wskrzeszenie.
+
+Q: Mam błąd, co mam zrobić?
+A: Napisz w dyskusji Bugs, podając listę modów i opis tego, co się stało. Jeśli możesz, wklej błąd ze swojego console.txt (znajdziesz go w C:\Users\TwojaNazwa\Zomboid), to znacznie przyspiesza znalezienie przyczyny.
+
+Q: Chciałbym zaproponować ulepszenie / mam pomysł na nową funkcję, co mam zrobić?
+A: Napisz o tym w komentarzach, czytam wszystko. Niczego nie obiecuję, ale dobre pomysły mają zwyczaj trafiać do moda.
+
+Q: Czy mogę losować tylko niektóre rzeczy, na przykład wygląd, i zachować swój build?
+A: Tak. Przycisk z kostką pozwala niezależnie ustawić każdą kategorię (płeć, wygląd, imię, zawód, cechy, odzież, region startowy, seed, zombie, piaskownica, piaskownica modów) na Zachowaj lub Losowo.
+
+Q: Czy mogę zrestartować z menu głównego / bez umierania?
+A: Nie ręcznie, panel istnieje tylko na ekranie śmierci. Menu główne jedynie wznowi nowy świat, który wciąż oczekiwał w chwili zamknięcia gry. Jeśli właśnie zostałeś ugryziony, ciesz się ostatnimi chwilami.
+
+Q: Chcę zachować poziomy umiejętności i XP po śmierci, czy ten mod to potrafi?
+A: Nie, to dokładne przeciwieństwo celu tego moda. Ale pracuję nad wariantem o nazwie Quick Respawn, który będzie robił właśnie to, bądź na bieżąco.
+
+Q: Dlaczego przyciski Quick Restart są wyszarzone?
+A: Albo mod został włączony w trakcie rozgrywki, więc nie zapisano żadnych danych postaci (dzieje się to przy tworzeniu postaci), albo zginąłeś zbyt szybko, by zapis się zakończył (odbywa się chwilę po pojawieniu się w świecie). Użyj raz "Kontynuuj z nową postacią", a przyciski zadziałają od następnej śmierci. Jeśli to się powtarza, może chodzić o poważną niekompatybilność z innym modem, daj mi znać!
+
+Q: Czy NOWY ŚWIAT usuwa mój obecny świat?
+A: Nie. NOWY ŚWIAT generuje zupełnie nowy świat jako osobny zapis. Poprzedni świat nadal jest w menu Wczytaj. TEN SAM ŚWIAT kontynuuje grę w tym samym zapisie.
+
+Mod jest dostępny w 29 językach.
+
+Śmiało dziel się opinią w komentarzach.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

@@ -1,0 +1,104 @@
+[img]https://i.imgur.com/Pu2nMwd.gif[/img]
+
+Aggiunge un pannello Quick Restart alla schermata di morte che ti riporta in gioco molto più in fretta della procedura normale.
+Due opzioni: ricominciare in un NUOVO MONDO o rinascere nello STESSO MONDO, in entrambi i casi con il tuo personaggio originale.
+
+Il personaggio viene salvato alla CREAZIONE e riapplicato automaticamente:
+- Nome, sesso, professione
+- Tratti, abilità e ricette conosciute
+- Aspetto completo: capelli, barba, colore dei capelli, carnagione, peli del corpo, capelli rasati, barba incolta
+- Tutti i vestiti indossati, con colori e varianti di texture
+- Tipo di voce, tono e prefisso
+- Peso del personaggio
+- Regione di spawn
+
+Le impostazioni sandbox vengono salvate automaticamente poco dopo lo spawn. Se sono cambiate dalla creazione del personaggio, il pulsante NUOVO MONDO ti chiederà di scegliere tra quelle originali e quelle attuali.
+
+Se scegli "Nuovo personaggio" invece di usare Quick Restart, quel nuovo personaggio diventerà il nuovo originale ricaricato al Quick Restart successivo.
+
+Se il mod viene attivato in una partita già iniziata, i pulsanti Quick Restart saranno disattivati perché nessun dato del personaggio è stato salvato: il salvataggio avviene alla creazione del personaggio. Scegli una volta "Nuovo personaggio" e Quick Restart sarà disponibile dalla morte successiva.
+
+[img]https://i.imgur.com/gqWYFPL.gif[/img]
+
+Un pulsante a forma di dado nel pannello Quick Restart apre la finestra OPZIONI DI CASUALITÀ. Ogni categoria può essere impostata su Mantieni (riapplica il personaggio salvato) o Casuale:
+- Sesso: estrae un sesso; tutto ciò che è trasferibile dall'aspetto viene mantenuto
+- Aspetto: estrae capelli, barba, colore dei capelli e carnagione
+- Nome: estrae un nuovo nome e cognome
+- Professione: estrae una professione; anche i tratti vengono estratti, perché una nuova professione cambia il budget di punti
+- Tratti: estrae un nuovo insieme di tratti che rispetta i punti tratto del mondo e le esclusioni reciproche
+- Vestiti: ti veste con un completo casuale preso dagli abiti della creazione del personaggio
+- Regione di spawn: estrae una regione tra quelle disponibili per la partita, mappe dei mod comprese
+
+Solo NUOVO MONDO:
+- Seed: genera un nuovo seed del mondo
+- Zombi: rende completamente casuali le impostazioni degli zombi
+- Impostazioni sandbox: rende completamente casuale tutto il resto, gli zombi seguono l'opzione Zombi. È DAVVERO casuale e il mondo può risultare estremo o a malapena giocabile. Sei stato avvisato... due volte, c'è anche un popup di avviso.
+- Impostazioni sandbox dei mod: rende completamente casuali le opzioni sandbox aggiunte dagli altri mod (visibile solo se almeno un mod attivo aggiunge opzioni sandbox)
+
+[img]https://i.imgur.com/Y6jzQpX.png[/img]
+
+Quick Restart interviene su molte meccaniche del gioco. Legge e riscrive:
+- Creazione del personaggio: nome, sesso, professione e tratti
+- Abilità, XP e ricette conosciute
+- Aspetto e voce
+- Vestiti indossati e oggetti del kit iniziale
+- Dati mod del personaggio e del descrittore (è così che di solito la personalizzazione del personaggio dei mod sopravvive a un riavvio)
+- Regioni di spawn e selezione della mappa
+- Creazione del mondo: impostazioni sandbox e seed del mondo
+- La lista dei mod predefinita (solo NUOVO MONDO, salvata e ripristinata automaticamente)
+- L'interfaccia della schermata di morte
+
+Un mod che modifica una di queste meccaniche in un modo che Quick Restart non si aspetta può causare problemi di compatibilità. Il più frequente: i dati del personaggio o del mondo non possono essere salvati e, alla morte, i pulsanti Quick Restart indicano che non è stato salvato alcun dato. Se ti succede, pubblica un messaggio nella discussione Bugs con la tua lista dei mod, vedrò cosa posso fare per ampliare i casi gestiti dal mod.
+
+Gli oggetti dei mod che non possono essere salvati vengono semplicemente ignorati: non saranno riapplicati al Quick Restart, tutto il resto sì.
+
+[img]https://i.imgur.com/HQ2KJLs.png[/img]
+
+Il gioco non libera tutta la sua memoria quando un mondo viene ricaricato. È un problema del motore: succede con o senza questo mod, ma i riavvii frequenti lo fanno emergere prima.
+
+Quick Restart lo tiene d'occhio per te:
+- Stima quanti riavvii restano prima che il gioco esaurisca la memoria.
+- Quando il numero scende, compare un avviso nel momento in cui usi Quick Restart, mai durante la partita.
+- Puoi allora chiudere il gioco (il nuovo mondo si caricherà da solo appena lo riapri) o continuare senza chiudere.
+- La stima si calibra nel tempo sulla tua macchina e sulla tua lista dei mod.
+
+Se riapri il gioco più tardi invece che subito, una finestra nel menu principale ti chiede se vuoi ancora quel nuovo mondo in sospeso.
+
+Consiglio: più zombi hai, prima dovrai riavviare il gioco, quindi tienilo a mente quando prepari la prossima partita!
+
+Spero che The Indie Stone lo risolva presto e che io possa togliere tutto questo, ma nel frattempo è il meglio che ho potuto fare per limitarlo! Fammi sapere come ti sembra.
+
+[img]https://i.imgur.com/f9qefDM.png[/img]
+
+Q: Hai rimosso le normali opzioni di morte?
+A: No, ci sono ancora tutte. Quick Restart elimina persino il ritardo vanilla, così compaiono subito invece di apparire lentamente in dissolvenza.
+
+Q: Funziona in multiplayer?
+A: Sì, il Quick Restart nello stesso mondo funziona in multiplayer. Il Quick Restart in un nuovo mondo è solo per giocatore singolo ed è disattivato anche in schermo condiviso. (Non vorrai mica cancellare il mondo in cui stanno giocando tutti gli altri!... Vero?)
+
+Q: Mi restituisce l'XP che avevo prima di morire?
+A: No. Il personaggio viene salvato alla creazione, quindi ricominci con le abilità e l'XP iniziali. Tutto ciò che hai guadagnato durante la partita va perso. È un riavvio rapido, non una resurrezione.
+
+Q: Ho un bug, cosa devo fare?
+A: Pubblica un messaggio nella discussione Bugs con la tua lista dei mod e una descrizione di ciò che è successo. Se puoi, incolla l'errore dal tuo console.txt (in C:\Users\TuoNome\Zomboid), aiuta molto a trovare la causa.
+
+Q: Posso rendere casuali solo alcune cose, come l'aspetto, e mantenere la mia build?
+A: Sì. Il pulsante a dado permette di impostare ogni categoria (sesso, aspetto, nome, professione, tratti, vestiti, regione di spawn, seed, zombi, sandbox, sandbox dei mod) su Mantieni o Casuale in modo indipendente.
+
+Q: Posso ricominciare dal menu principale / senza morire?
+A: Non manualmente, il pannello esiste solo nella schermata di morte. Il menu principale riprende soltanto un nuovo mondo rimasto in sospeso alla chiusura del gioco. Se ti hanno appena morso, goditi gli ultimi momenti.
+
+Q: Voglio mantenere i livelli delle abilità e l'XP dopo la morte, questo mod può farlo?
+A: No, è l'opposto dello scopo di questo mod. Ma sto lavorando a una variante chiamata Quick Respawn che farà esattamente questo, resta sintonizzato.
+
+Q: Perché i pulsanti Quick Restart sono grigi?
+A: O il mod è stato attivato in una partita già iniziata, quindi nessun dato del personaggio è stato salvato (avviene alla creazione del personaggio), oppure sei morto troppo in fretta perché il salvataggio si completasse (avviene pochi istanti dopo lo spawn). Scegli una volta "Nuovo personaggio" e i pulsanti funzioneranno dalla morte successiva. Se continua a succedere, potrebbe esserci un'incompatibilità importante con un altro mod, fammelo sapere!
+
+Q: NUOVO MONDO cancella il mio mondo attuale?
+A: No. NUOVO MONDO genera un mondo completamente nuovo in un salvataggio separato. Il mondo precedente è ancora lì nel menu Carica. STESSO MONDO continua nello stesso salvataggio.
+
+Il mod è disponibile in 29 lingue.
+
+Sentiti libero di lasciare qualsiasi feedback nella sezione commenti.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

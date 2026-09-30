@@ -1,0 +1,104 @@
+[img]https://i.imgur.com/Pu2nMwd.gif[/img]
+
+Voegt een Quick Restart-paneel toe aan het doodsscherm dat je aanzienlijk sneller terug in het spel brengt dan de normale procedure.
+Twee opties: opnieuw beginnen in een nieuwe wereld of respawnen in dezelfde, beide met herstel van je oorspronkelijke personage.
+
+Het personage wordt bij het AANMAKEN opgeslagen en automatisch opnieuw toegepast:
+- Naam, geslacht, beroep
+- Eigenschappen, vaardigheden en bekende recepten
+- Volledig uiterlijk: haar, baard, haarkleur, huidskleur, lichaamshaar, haarstoppels, baardstoppels
+- Alle gedragen kleding met kleuren en textuurvarianten
+- Stemtype, toonhoogte en prefix
+- Gewicht van het personage
+- Startregio
+
+De sandbox-instellingen worden kort na het spawnen automatisch vastgelegd. Als ze zijn gewijzigd sinds je personage is aangemaakt, vraagt de knop Nieuwe wereld je te kiezen tussen de oorspronkelijke en de huidige instellingen.
+
+Als je kiest voor "Doorgaan met een nieuw personage" in plaats van Quick Restart, wordt dat nieuwe personage het nieuwe origineel dat bij de volgende Quick Restart wordt geladen.
+
+Als deze mod midden in een save wordt ingeschakeld, zijn de Quick Restart-knoppen uitgeschakeld, omdat er geen personagegegevens zijn opgeslagen (dat gebeurt bij het aanmaken van het personage). Kies één keer "Doorgaan met een nieuw personage" en Quick Restart is beschikbaar vanaf je volgende dood.
+
+[img]https://i.imgur.com/gqWYFPL.gif[/img]
+
+Een dobbelsteenknop op het Quick Restart-paneel opent het venster Willekeuropties. Elke categorie kan op Behouden (je opgeslagen personage opnieuw toepassen) of Willekeurig worden gezet:
+- Geslacht: gooit een geslacht; alles wat van je uiterlijk overdraagbaar is, blijft behouden
+- Uiterlijk: gooit haar, baard, haarkleur en huidskleur
+- Naam: gooit een nieuwe voor- en achternaam
+- Beroep: gooit een beroep; de eigenschappen worden meegegooid, omdat een nieuw beroep het puntenbudget verandert
+- Eigenschappen: gooit een nieuwe set eigenschappen die de eigenschapspunten van de wereld en onderlinge uitsluitingen respecteert
+- Kleding: kleedt je in een willekeurige outfit uit de outfitpool van het aanmaken van personages
+- Startregio: gooit een regio uit de regio's die voor de save beschikbaar zijn, gemodde kaarten inbegrepen
+
+Alleen Nieuwe wereld:
+- Seed: genereert een nieuwe wereldseed
+- Zombies: maakt de zombie-instellingen volledig willekeurig
+- Sandbox-instellingen: maakt al het andere volledig willekeurig, zombies volgen de optie Zombies. Het is ECHT willekeurig en de wereld kan extreem of nauwelijks speelbaar uitvallen. Je bent gewaarschuwd... twee keer, er komt ook een waarschuwingsvenster.
+- Mod-sandbox-instellingen: maakt de sandbox-opties van je andere mods volledig willekeurig (alleen zichtbaar als minstens één actieve mod sandbox-opties toevoegt)
+
+[img]https://i.imgur.com/Y6jzQpX.png[/img]
+
+Quick Restart raakt veel spelmechanieken. Het leest en herschrijft:
+- Personage aanmaken: naam, geslacht, beroep en eigenschappen
+- Vaardigheden, XP en bekende recepten
+- Uiterlijk en stem
+- Gedragen kleding en items uit het starterspakket
+- Moddata van personage en descriptor (zo overleeft gemodde personage-aanpassing meestal een herstart)
+- Startregio's en kaartkeuze
+- Wereld aanmaken: sandbox-instellingen en wereldseed
+- De standaard modlijst (alleen Nieuwe wereld, automatisch geback-upt en hersteld)
+- De interface van het doodsscherm
+
+Een mod die een van deze mechanieken verandert op een manier die Quick Restart niet verwacht, kan compatibiliteitsproblemen veroorzaken. De meest voorkomende: de personage- of wereldgegevens kunnen niet worden opgeslagen, en zodra je sterft, melden de Quick Restart-knoppen dat er geen gegevens zijn opgeslagen. Overkomt jou dat, plaats dan een bericht in de Bugs-discussie met je modlijst, dan kijk ik wat ik kan doen om de scenario's die de mod afhandelt uit te breiden.
+
+Gemodde items die niet kunnen worden vastgelegd, worden gewoon overgeslagen: ze worden bij Quick Restart niet opnieuw toegepast, al het andere zou dat wel moeten.
+
+[img]https://i.imgur.com/HQ2KJLs.png[/img]
+
+Het spel geeft niet al zijn geheugen vrij wanneer een wereld opnieuw wordt geladen. Dit is een engineprobleem: het gebeurt met of zonder deze mod, maar door vaak te herstarten komt het sneller aan het licht.
+
+Quick Restart houdt het voor je in de gaten:
+- Het schat hoeveel herstarts er nog over zijn voordat het spel zonder geheugen komt te zitten.
+- Wordt dat aantal laag, dan verschijnt er een waarschuwing op het moment dat je Quick Restart gebruikt, nooit tijdens het spelen.
+- Je kunt dan het spel afsluiten (de nieuwe wereld laadt vanzelf zodra je het weer start) of doorgaan zonder af te sluiten.
+- De schatting kalibreert zich na verloop van tijd op je computer en je modlijst.
+
+Start je het spel later opnieuw in plaats van meteen, dan vraagt een venster in het hoofdmenu of je die wachtende nieuwe wereld nog wilt.
+
+Tip: Hoe meer zombies je hebt, hoe sneller je je spel moet herstarten, dus houd daar rekening mee bij het instellen van je volgende run!
+
+Hopelijk lost The Indie Stone dit snel op en kan ik dit weghalen, maar tot die tijd is dit het beste wat ik kon doen om het te beperken! Laat me weten hoe het aanvoelt.
+
+[img]https://i.imgur.com/f9qefDM.png[/img]
+
+Q: Heb je de normale doodsopties verwijderd?
+A: Nee, ze zijn er allemaal nog. Quick Restart haalt zelfs de vanilla-vertraging weg, zodat ze meteen verschijnen in plaats van langzaam in te faden.
+
+Q: Werkt het in multiplayer?
+A: Ja, Quick Restart in dezelfde wereld werkt in multiplayer. Quick Restart in een nieuwe wereld is alleen voor singleplayer en is ook uitgeschakeld in splitscreen. (Je wilt toch niet de wereld verwijderen waarin iedereen speelt!... Toch?)
+
+Q: Krijg je de XP terug die je had voordat je stierf?
+A: Nee. Je personage wordt bij het aanmaken opgeslagen, dus je begint opnieuw met je oorspronkelijke startvaardigheden en XP. Alles wat je tijdens de run hebt verdiend, gaat verloren. Het is een snelle herstart, geen wederopstanding.
+
+Q: Ik heb een bug, wat moet ik doen?
+A: Plaats een bericht in de Bugs-discussie met je modlijst en een beschrijving van wat er gebeurde. Plak als het kan de fout uit je console.txt (te vinden in C:\Users\JouwNaam\Zomboid), dan is de oorzaak veel sneller gevonden.
+
+Q: Ik wil een verbetering voorstellen / ik heb een idee voor een nieuwe functie, wat moet ik doen?
+A: Plaats het in de reacties, ik lees alles. Geen beloftes, maar goede ideeën belanden vaak in de mod.
+
+Q: Kan ik herstarten vanuit het hoofdmenu / zonder dood te gaan?
+A: Niet handmatig, het paneel bestaat alleen op het doodsscherm. Het hoofdmenu hervat alleen een nieuwe wereld die nog klaarstond toen het spel werd afgesloten. Ben je net gebeten, geniet dan van je laatste momenten.
+
+Q: Ik wil mijn vaardigheidsniveaus en XP behouden na mijn dood, kan dat hiermee?
+A: Nee, dat is precies het tegenovergestelde van waar deze mod voor is. Maar ik werk aan een variant genaamd Quick Respawn die precies dat zal doen, blijf op de hoogte.
+
+Q: Waarom zijn de Quick Restart-knoppen grijs?
+A: Ofwel is de mod midden in een save ingeschakeld, waardoor er geen personagegegevens zijn vastgelegd (dat gebeurt bij het aanmaken van het personage), ofwel stierf je te snel om het vastleggen te laten voltooien (dat gebeurt kort na het spawnen). Kies één keer "Doorgaan met een nieuw personage" en de knoppen werken vanaf je volgende dood. Blijft dit gebeuren, dan is er mogelijk een ernstige incompatibiliteit met een andere mod, laat het me weten!
+
+Q: Verwijdert Nieuwe wereld mijn huidige wereld?
+A: Nee. Nieuwe wereld genereert een gloednieuwe wereld als aparte save. De vorige wereld staat nog gewoon in het menu Laden. Dezelfde wereld speelt verder in dezelfde save.
+
+De mod is beschikbaar in 29 talen.
+
+Deel gerust je feedback in de reacties.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

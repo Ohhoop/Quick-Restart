@@ -1,0 +1,101 @@
+[img]https://i.imgur.com/Pu2nMwd.gif[/img]
+
+Egy Quick Restart panelt ad a halálképernyőhöz, amely a szokásos folyamatnál jóval gyorsabban visz vissza a játékba.
+Két lehetőség: újrakezdés egy ÚJ VILÁGBAN, vagy újraéledés UGYANABBAN A VILÁGBAN, mindkettő visszaállítja az eredeti karakteredet.
+
+A karakter a LÉTREHOZÁSKOR mentődik, és automatikusan újra alkalmazódik:
+- Név, nem, foglalkozás
+- Tulajdonságok, képességek és ismert receptek
+- Teljes megjelenés: haj, szakáll, hajszín, bőrtónus, testszőrzet, hajtarló, szakálltarló
+- Minden viselt ruha a színeivel és textúraváltozataival
+- Hangtípus, hangmagasság és előtag
+- A karakter testsúlya
+- Kezdőrégió
+
+A sandbox beállítások automatikusan rögzülnek röviddel a megjelenés után. Ha a karakter létrehozása óta megváltoztak, az ÚJ VILÁG gomb megkérdezi, hogy az eredeti vagy a jelenlegi beállításokat szeretnéd-e.
+
+Ha a Quick Restart helyett a "Folytatás új karakterrel" lehetőséget választod, ez az új karakter lesz az új eredeti, amelyet a következő Quick Restart betölt.
+
+Ha a modot egy folyamatban lévő mentésnél kapcsolod be, a Quick Restart gombok le lesznek tiltva, mert nincs mentett karakteradat (ez a karakter létrehozásakor mentődik). Válaszd egyszer a "Folytatás új karakterrel" lehetőséget, és a következő halálodtól elérhető lesz a Quick Restart.
+
+[img]https://i.imgur.com/gqWYFPL.gif[/img]
+
+A Quick Restart panelen lévő kocka gomb megnyitja a VÉLETLENSZERŰSÍTÉSI OPCIÓK ablakot. Minden kategória beállítható Megtartás (a mentett karakter újra alkalmazása) vagy Véletlen értékre:
+- Nem: nemet sorsol; a megjelenésből minden átvihető megmarad
+- Megjelenés: hajat, szakállt, hajszínt és bőrtónust sorsol
+- Név: új kereszt- és vezetéknevet sorsol
+- Foglalkozás: foglalkozást sorsol; a tulajdonságok vele együtt sorsolódnak, mert az új foglalkozás megváltoztatja a pontkeretet
+- Tulajdonságok: új tulajdonságkészletet sorsol a világ tulajdonságpontjai és a kölcsönös kizárások figyelembevételével
+- Ruházat: véletlenszerű öltözéket ad rád a karakteralkotó öltözetei közül
+- Kezdőrégió: régiót sorsol a mentésben elérhetők közül, a modolt térképeket is beleértve
+
+Csak ÚJ VILÁG esetén:
+- Seed: új világ seedet generál
+- Zombik: teljesen véletlenszerűsíti a zombi beállításokat
+- Sandbox beállítások: minden mást teljesen véletlenszerűsít, a zombik a Zombik opciót követik. Ez TÉNYLEG véletlenszerű, a világ szélsőséges vagy alig játszható is lehet. Figyelmeztettelek... kétszer, mert egy figyelmeztető ablak is van.
+- Mod sandbox beállítások: teljesen véletlenszerűsíti a többi modod által hozzáadott sandbox opciókat (csak akkor látható, ha legalább egy aktív mod ad hozzá sandbox opciókat)
+
+[img]https://i.imgur.com/Y6jzQpX.png[/img]
+
+A Quick Restart sok játékmechanikához hozzányúl. Olvassa és felülírja:
+- Karakteralkotás: név, nem, foglalkozás és tulajdonságok
+- Képességek, XP és ismert receptek
+- Megjelenés és hang
+- Viselt ruházat és a kezdőcsomag tárgyai
+- A karakter és a leíró mod adatai (így éli túl általában a modolt karaktertestreszabás az újraindítást)
+- Kezdőrégiók és térképválasztás
+- Világ létrehozása: sandbox beállítások és világ seed
+- Az alapértelmezett modlista (csak ÚJ VILÁG esetén, automatikusan mentve és visszaállítva)
+- A halálképernyő felülete
+
+Egy mod, amely ezen mechanikák egyikét a Quick Restart számára váratlan módon változtatja meg, kompatibilitási gondokat okozhat. A leggyakoribb: a karakter vagy a világ adatai nem menthetők, és halálod után a Quick Restart gombok jelzik, hogy nincs mentett adat. Ha ez történik veled, írj a Bugs beszélgetésbe a modlistáddal, és megnézem, mit tehetek, hogy a mod több helyzetet kezeljen.
+
+A nem rögzíthető modolt tárgyakat a mod egyszerűen kihagyja: ezeket a Quick Restart nem alkalmazza újra, minden mást igen.
+
+[img]https://i.imgur.com/HQ2KJLs.png[/img]
+
+A játék nem szabadítja fel az összes memóriáját, amikor egy világ újratöltődik. Ez motorhiba: a moddal és nélküle is előfordul, de a gyakori újraindítások hamarabb előhozzák.
+
+A Quick Restart figyel erre helyetted:
+- Megbecsüli, hány újraindítás van hátra, mielőtt a játéknak elfogy a memóriája.
+- Ha ez a szám alacsony, figyelmeztetés jelenik meg, amikor a Quick Restartot használod, játék közben soha.
+- Ekkor bezárhatod a játékot (az új világ magától betöltődik, amint újraindítod), vagy bezárás nélkül folytathatod.
+- A becslés idővel magától igazodik a gépedhez és a modlistádhoz.
+
+Ha nem azonnal, hanem később indítod újra a játékot, a főmenüben egy ablak megkérdezi, hogy még mindig szeretnéd-e azt a függőben lévő új világot.
+
+Tipp: minél több zombid van, annál hamarabb kell újraindítanod a játékot, ezt tartsd észben a következő játékod beállításakor!
+
+Remélhetőleg a The Indie Stone hamar kijavítja ezt, és eltávolíthatom ezt a funkciót, de addig is ez a legjobb, amit tenni tudtam az enyhítésére! Kérlek, jelezd, milyennek érzed.
+
+[img]https://i.imgur.com/f9qefDM.png[/img]
+
+Q: Eltávolítottad a szokásos halál utáni lehetőségeket?
+A: Nem, mind megvannak. A Quick Restart még a vanilla késleltetést is eltávolítja, így azonnal megjelennek, lassú előtűnés helyett.
+
+Q: Működik többjátékos módban?
+A: Igen, az ugyanabban a világban történő Quick Restart működik többjátékos módban. Az új világos Quick Restart csak egyjátékos módban érhető el, és osztott képernyőn is le van tiltva. (Ugye nem akarod törölni a világot, amelyen mindenki más játszik!... Ugye?)
+
+Q: Visszakapom az XP-t, amim a halálom előtt volt?
+A: Nem. A karakter a létrehozáskor mentődik, így az eredeti kezdő képességeiddel és XP-ddel kezdesz újra. Minden, amit a játék során szereztél, elvész. Ez gyors újrakezdés, nem feltámasztás.
+
+Q: Hibát találtam, mit tegyek?
+A: Írj a Bugs beszélgetésbe a modlistáddal és annak leírásával, mi történt. Ha tudod, másold be a hibát a console.txt fájlodból (a C:\Users\Felhasznalonev\Zomboid mappában található), ez sokkal gyorsabbá teszi az ok megtalálását.
+
+Q: Újrakezdhetek a főmenüből / halál nélkül?
+A: Kézzel nem, a panel csak a halálképernyőn létezik. A főmenü csak egy olyan új világot folytat, amely a játék bezárásakor még függőben volt. Ha most haraptak meg, élvezd az utolsó pillanataidat.
+
+Q: Szeretném megtartani a képességszintjeimet és az XP-t halál után, meg tudja ezt csinálni?
+A: Nem, ez pont az ellentéte annak, amire ez a mod való. De dolgozom egy Quick Respawn nevű változaton, amely pontosan ezt fogja tenni, figyeld a híreket.
+
+Q: Miért szürkék a Quick Restart gombok?
+A: Vagy a modot egy folyamatban lévő mentésnél kapcsoltad be, így nem rögzült karakteradat (ez a karakter létrehozásakor történik), vagy túl gyorsan haltál meg ahhoz, hogy a rögzítés befejeződjön (ez közvetlenül a megjelenés után fut le). Válaszd egyszer a "Folytatás új karakterrel" lehetőséget, és a gombok a következő halálodtól működni fognak. Ha ez ismétlődik, komoly inkompatibilitás lehet egy másik moddal, kérlek, jelezd!
+
+Q: Törli az ÚJ VILÁG a jelenlegi világomat?
+A: Nem. Az ÚJ VILÁG egy vadonatúj világot hoz létre külön mentésként. Az előző világ továbbra is ott van a Betöltés menüben. Az UGYANAZ A VILÁG ugyanabban a mentésben folytatja a játékot.
+
+A mod 29 nyelven érhető el.
+
+Nyugodtan oszd meg a visszajelzésedet a hozzászólásokban.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

@@ -1,0 +1,101 @@
+[img]https://i.imgur.com/Pu2nMwd.gif[/img]
+
+Adaugă un panou Quick Restart pe ecranul morții care te readuce în joc mult mai repede decât procesul normal.
+Două opțiuni: o iei de la capăt într-o LUME NOUĂ sau reapari în ACEEAŞI LUME, ambele cu personajul tău original.
+
+Personajul este salvat la CREARE și reaplicat automat:
+- Nume, sex, profesie
+- Trăsături, abilități și rețete cunoscute
+- Aspect complet: păr, barbă, culoarea părului, tenul, părul de pe corp, păr crescut, barbă nerasă
+- Toate hainele purtate, cu culori și variante de textură
+- Tipul vocii, tonul și prefixul
+- Greutatea personajului
+- Regiunea de apariție
+
+Setările sandbox sunt capturate automat la scurt timp după apariție. Dacă s-au schimbat de la crearea personajului, butonul LUME NOUĂ îți va cere să alegi între setările originale și cele actuale.
+
+Dacă alegi "Continuă cu un personaj nou" în loc să folosești Quick Restart, acel personaj nou devine noul original reîncărcat la următorul Quick Restart.
+
+Dacă acest mod este activat în mijlocul unei salvări, butoanele Quick Restart vor fi dezactivate, deoarece nu s-au salvat date despre personaj: acestea se salvează la crearea personajului. Alege o dată "Continuă cu un personaj nou" și Quick Restart va fi disponibil de la următoarea moarte.
+
+[img]https://i.imgur.com/gqWYFPL.gif[/img]
+
+Un buton cu zar din panoul Quick Restart deschide fereastra OPȚIUNI DE ALEATORIZARE. Fiecare categorie poate fi setată pe Păstrează (reaplică personajul salvat) sau Aleatoriu:
+- Sex: trage la sorți un sex; tot ce se poate transfera din aspect este păstrat
+- Aspect: trage la sorți părul, barba, culoarea părului și tenul
+- Nume: trage la sorți un nou prenume și nume de familie
+- Profesie: trage la sorți o profesie; trăsăturile sunt trase odată cu ea, pentru că o profesie nouă schimbă bugetul de puncte
+- Trăsături: trage la sorți un set nou de trăsături care respectă punctele de trăsătură ale lumii și excluderile reciproce
+- Haine: te îmbracă cu o ținută aleatorie din ținutele de la crearea personajului
+- Regiunea de apariție: trage la sorți o regiune dintre cele disponibile pentru salvare, inclusiv hărțile din moduri
+
+Doar LUME NOUĂ:
+- Seed: generează un seed nou pentru lume
+- Zombi: face complet aleatorii setările zombilor
+- Setări sandbox: face complet aleatoriu tot restul, zombii urmează opțiunea Zombi. Este CU ADEVĂRAT aleatoriu, iar lumea poate ieși extremă sau abia jucabilă. Ai fost avertizat... de două ori, există și un popup de avertizare.
+- Setări sandbox din moduri: face complet aleatorii opțiunile sandbox adăugate de celelalte moduri ale tale (apare doar dacă cel puțin un mod activ adaugă opțiuni sandbox)
+
+[img]https://i.imgur.com/Y6jzQpX.png[/img]
+
+Quick Restart atinge multe mecanici ale jocului. Citește și rescrie:
+- Crearea personajului: nume, sex, profesie și trăsături
+- Abilități, XP și rețete cunoscute
+- Aspect și voce
+- Hainele purtate și obiectele din kitul de început
+- Datele de mod ale personajului și ale descriptorului (așa supraviețuiește de obicei unui restart personalizarea personajului din alte moduri)
+- Regiunile de apariție și selecția hărții
+- Crearea lumii: setările sandbox și seed-ul lumii
+- Lista de moduri implicită (doar LUME NOUĂ, salvată și restaurată automat)
+- Interfața ecranului morții
+
+Un mod care schimbă una dintre aceste mecanici într-un mod la care Quick Restart nu se așteaptă poate cauza probleme de compatibilitate. Cea mai frecventă: datele personajului sau ale lumii nu pot fi salvate, iar la moarte butoanele Quick Restart îți spun că nu s-au salvat date. Dacă ți se întâmplă, postează un mesaj în discuția Bugs cu lista ta de moduri, voi vedea ce pot face pentru a extinde scenariile gestionate de mod.
+
+Obiectele din moduri care nu pot fi capturate sunt pur și simplu ignorate: nu vor fi reaplicate la Quick Restart, restul ar trebui să fie.
+
+[img]https://i.imgur.com/HQ2KJLs.png[/img]
+
+Jocul nu eliberează toată memoria când o lume este reîncărcată. Este o problemă a motorului: se întâmplă cu sau fără acest mod, dar restarturile frecvente o fac să apară mai repede.
+
+Quick Restart o urmărește pentru tine:
+- Estimează câte restarturi mai rămân până când jocul rămâne fără memorie.
+- Când numărul scade, apare un avertisment în momentul în care folosești Quick Restart, niciodată în timpul jocului.
+- Poți apoi să închizi jocul (lumea nouă se va încărca singură imediat ce îl redeschizi) sau să continui fără să închizi.
+- Estimarea se calibrează în timp după calculatorul tău și lista ta de moduri.
+
+Dacă redeschizi jocul mai târziu în loc de imediat, o fereastră în meniul principal te întreabă dacă mai vrei lumea nouă rămasă în așteptare.
+
+Sfat: cu cât ai mai mulți zombi, cu atât va trebui să repornești jocul mai devreme, așa că ține cont de asta când îți pregătești următoarea partidă!
+
+Sper ca The Indie Stone să rezolve asta curând și să pot scoate toate acestea, dar între timp e tot ce am putut face ca să atenuez problema! Spune-mi cum ți se pare.
+
+[img]https://i.imgur.com/f9qefDM.png[/img]
+
+Q: Ai eliminat opțiunile normale de la moarte?
+A: Nu, sunt toate acolo. Quick Restart elimină chiar și întârzierea vanilla, așa că apar imediat în loc să apară încet, treptat.
+
+Q: Funcționează în multiplayer?
+A: Da, Quick Restart în aceeași lume funcționează în multiplayer. Quick Restart în lume nouă este doar pentru single-player și este dezactivat și în split-screen. (Doar nu vrei să ștergi lumea pe care joacă toți ceilalți!... Nu-i așa?)
+
+Q: Îmi dă înapoi XP-ul pe care îl aveam înainte să mor?
+A: Nu. Personajul este salvat la creare, așa că o iei de la capăt cu abilitățile și XP-ul de început. Tot ce ai câștigat în timpul partidei se pierde. Este un restart rapid, nu o înviere.
+
+Q: Am găsit un bug, ce ar trebui să fac?
+A: Postează un mesaj în discuția Bugs cu lista ta de moduri și o descriere a ce s-a întâmplat. Dacă poți, lipește eroarea din console.txt (în C:\Users\NumeleTău\Zomboid), ajută mult la găsirea cauzei.
+
+Q: Pot reporni din meniul principal / fără să mor?
+A: Nu manual, panoul există doar pe ecranul morții. Meniul principal reia doar o lume nouă care era încă în așteptare când jocul s-a închis. Dacă tocmai ai fost mușcat, bucură-te de ultimele clipe.
+
+Q: Vreau să-mi păstrez nivelurile abilităților și XP-ul după moarte, poate face asta modul?
+A: Nu, este exact opusul scopului acestui mod. Dar lucrez la o variantă numită Quick Respawn care va face exact asta, rămâi pe fază.
+
+Q: De ce sunt gri butoanele Quick Restart?
+A: Fie modul a fost activat în mijlocul unei salvări, deci nu s-au capturat date despre personaj (se întâmplă la crearea personajului), fie ai murit prea repede ca să se termine captura (rulează la câteva clipe după apariție). Alege o dată "Continuă cu un personaj nou" și butoanele vor funcționa de la următoarea moarte. Dacă se tot întâmplă, poate exista o incompatibilitate importantă cu alt mod, anunță-mă!
+
+Q: LUME NOUĂ îmi șterge lumea actuală?
+A: Nu. LUME NOUĂ generează o lume complet nouă, ca salvare separată. Lumea anterioară este tot acolo în meniul Încarcă. ACEEAŞI LUME continuă în aceeași salvare.
+
+Modul este disponibil în 29 de limbi.
+
+Nu ezita să lași orice părere în secțiunea de comentarii.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

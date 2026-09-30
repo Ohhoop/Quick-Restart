@@ -1,0 +1,104 @@
+[img]https://i.imgur.com/Pu2nMwd.gif[/img]
+
+Menambah panel Quick Restart pada skrin kematian yang membawa anda kembali ke permainan jauh lebih pantas daripada proses biasa.
+Dua pilihan: mula semula dalam dunia baharu atau hidup semula dalam dunia yang sama, kedua-duanya memulihkan watak asal anda.
+
+Watak disimpan semasa PENCIPTAAN dan digunakan semula secara automatik:
+- Nama, jantina, profesion
+- Sifat, kemahiran dan resipi yang diketahui
+- Penampilan penuh: rambut, janggut, warna rambut, warna kulit, bulu badan, rambut tunggul, janggut tunggul
+- Semua pakaian yang dipakai berserta warna dan varian teksturnya
+- Jenis, nada dan awalan suara
+- Berat watak
+- Wilayah kemunculan
+
+Tetapan sandbox dirakam secara automatik sejurus selepas muncul. Jika tetapan itu berubah sejak watak anda dicipta, butang Dunia Baharu akan meminta anda memilih antara tetapan asal dan tetapan semasa.
+
+Jika anda memilih "Teruskan dengan watak baharu" dan bukannya Quick Restart, watak baharu itu akan menjadi watak asal yang dimuatkan pada Quick Restart seterusnya.
+
+Jika mod ini diaktifkan di tengah-tengah simpanan, butang Quick Restart akan dilumpuhkan kerana tiada data watak disimpan (data disimpan semasa penciptaan watak). Pilih "Teruskan dengan watak baharu" sekali dan Quick Restart akan tersedia mulai kematian anda yang seterusnya.
+
+[img]https://i.imgur.com/gqWYFPL.gif[/img]
+
+Butang dadu pada panel Quick Restart membuka tetingkap Pilihan Rawak. Setiap kategori boleh ditetapkan kepada Kekal (guna semula watak yang disimpan) atau Rawak:
+- Jantina: memilih jantina secara rawak; apa sahaja yang boleh dipindahkan daripada penampilan anda dikekalkan
+- Penampilan: merawakkan rambut, janggut, warna rambut dan warna kulit
+- Nama: merawakkan nama pertama dan nama keluarga baharu
+- Profesion: merawakkan profesion; sifat turut dirawakkan kerana profesion baharu mengubah bajet mata
+- Sifat: merawakkan set sifat baharu yang mematuhi mata sifat dunia dan pengecualian bersama
+- Pakaian: memakaikan pakaian rawak daripada koleksi pakaian penciptaan watak
+- Wilayah kemunculan: merawakkan wilayah antara yang tersedia untuk simpanan, termasuk peta mod
+
+Dunia Baharu sahaja:
+- Seed: menjana seed dunia baharu
+- Zombi: merawakkan tetapan zombi sepenuhnya
+- Tetapan sandbox: merawakkan semua yang lain sepenuhnya, zombi mengikut pilihan Zombi. Ia BENAR-BENAR rawak dan dunia boleh menjadi ekstrem atau hampir tidak boleh dimainkan. Anda sudah diberi amaran... dua kali, ada juga popup amaran.
+- Tetapan sandbox mod: merawakkan sepenuhnya pilihan sandbox yang ditambah oleh mod lain (hanya dipaparkan jika sekurang-kurangnya satu mod aktif menambah pilihan sandbox)
+
+[img]https://i.imgur.com/Y6jzQpX.png[/img]
+
+Quick Restart menyentuh banyak mekanik permainan. Ia membaca dan menulis semula:
+- Penciptaan watak: nama, jantina, profesion dan sifat
+- Kemahiran, XP dan resipi yang diketahui
+- Penampilan dan suara
+- Pakaian yang dipakai dan item kit permulaan
+- Data mod watak dan deskriptor (biasanya beginilah cara penyesuaian watak daripada mod kekal selepas mula semula)
+- Wilayah kemunculan dan pemilihan peta
+- Penciptaan dunia: tetapan sandbox dan seed dunia
+- Senarai mod lalai (Dunia Baharu sahaja, disandarkan dan dipulihkan secara automatik)
+- Antara muka skrin kematian
+
+Mod yang mengubah salah satu mekanik ini dengan cara yang tidak dijangka oleh Quick Restart boleh menyebabkan masalah keserasian. Yang paling kerap: data watak atau dunia tidak dapat disimpan, dan apabila anda mati butang Quick Restart memberitahu bahawa tiada data disimpan. Jika ini berlaku, sila hantar mesej dalam perbincangan Bugs bersama senarai mod anda, saya akan lihat apa yang boleh dilakukan untuk meluaskan senario yang dikendalikan oleh mod ini.
+
+Item mod yang tidak dapat dirakam hanya dilangkau: item itu tidak akan digunakan semula semasa Quick Restart, tetapi yang lain sepatutnya digunakan.
+
+[img]https://i.imgur.com/HQ2KJLs.png[/img]
+
+Permainan tidak melepaskan semua memorinya apabila dunia dimuat semula. Ini masalah enjin: ia berlaku dengan atau tanpa mod ini, tetapi mula semula yang kerap membuatkannya muncul lebih cepat.
+
+Quick Restart memantaunya untuk anda:
+- Ia menganggarkan berapa kali mula semula yang tinggal sebelum memori permainan habis.
+- Apabila jumlahnya rendah, amaran dipaparkan ketika anda menggunakan Quick Restart, tidak pernah semasa bermain.
+- Anda kemudian boleh menutup permainan (dunia baharu akan dimuatkan sendiri sebaik sahaja anda melancarkannya semula) atau teruskan tanpa menutup.
+- Anggaran ini menyesuaikan diri dengan komputer dan senarai mod anda dari semasa ke semasa.
+
+Jika anda melancarkan permainan semula kemudian dan bukannya serta-merta, satu gesaan di menu utama akan bertanya sama ada anda masih mahukan dunia baharu yang tertangguh itu.
+
+Tip: Lebih banyak zombi, lebih cepat anda perlu memulakan semula permainan, jadi ingat perkara ini semasa menyediakan permainan seterusnya!
+
+Harapnya The Indie Stone akan membaikinya dengan segera dan saya boleh membuang ciri ini, tetapi buat masa ini, inilah yang terbaik yang mampu saya lakukan untuk mengurangkannya! Beritahu saya bagaimana rasanya.
+
+[img]https://i.imgur.com/f9qefDM.png[/img]
+
+Q: Adakah pilihan kematian biasa dibuang?
+A: Tidak, semuanya masih ada. Quick Restart malah membuang kelewatan vanilla, jadi pilihan itu terus muncul dan bukannya perlahan-lahan pudar masuk.
+
+Q: Adakah ia berfungsi dalam multiplayer?
+A: Ya, Quick Restart dunia yang sama berfungsi dalam multiplayer. Quick Restart dunia baharu hanya untuk pemain tunggal dan juga dilumpuhkan dalam skrin pisah. (Anda tidak mahu memadam dunia tempat semua orang bermain!... Betul tak?)
+
+Q: Adakah XP sebelum mati dikembalikan?
+A: Tidak. Watak anda disimpan semasa penciptaan, jadi anda bermula semula dengan kemahiran dan XP permulaan. Semua yang diperoleh sepanjang permainan hilang. Ini mula semula pantas, bukan kebangkitan semula.
+
+Q: Saya menemui pepijat, apa yang perlu saya lakukan?
+A: Hantar mesej dalam perbincangan Bugs bersama senarai mod anda dan penerangan tentang apa yang berlaku. Jika boleh, tampal ralat daripada console.txt anda (di C:\Users\NamaAnda\Zomboid), ia menjadikan punca lebih cepat ditemui.
+
+Q: Bolehkah saya merawakkan sebahagian sahaja, seperti penampilan, dan mengekalkan binaan saya?
+A: Boleh. Butang dadu membolehkan anda menetapkan setiap kategori (jantina, penampilan, nama, profesion, sifat, pakaian, wilayah kemunculan, seed, zombi, sandbox, sandbox mod) kepada Kekal atau Rawak secara berasingan.
+
+Q: Bolehkah saya mula semula dari menu utama / tanpa mati?
+A: Tidak secara manual, panel ini hanya wujud pada skrin kematian. Menu utama hanya menyambung dunia baharu yang masih tertangguh semasa permainan ditutup. Jika anda baru digigit, nikmati saat-saat terakhir anda.
+
+Q: Saya mahu mengekalkan tahap kemahiran dan XP selepas mati, bolehkah mod ini melakukannya?
+A: Tidak, itu bertentangan dengan tujuan mod ini. Tetapi saya sedang membangunkan varian bernama Quick Respawn yang akan melakukan perkara itu, nantikan.
+
+Q: Kenapa butang Quick Restart berwarna kelabu?
+A: Sama ada mod diaktifkan di tengah-tengah simpanan, jadi tiada data watak dirakam (ia berlaku semasa penciptaan watak), atau anda mati terlalu cepat sebelum rakaman selesai (ia berjalan sejurus selepas muncul). Pilih "Teruskan dengan watak baharu" sekali dan butang akan berfungsi mulai kematian seterusnya. Jika ini terus berlaku, mungkin ada ketidakserasian serius dengan mod lain, sila beritahu saya!
+
+Q: Adakah Dunia Baharu memadam dunia semasa saya?
+A: Tidak. Dunia Baharu menjana dunia serba baharu sebagai simpanan berasingan. Dunia sebelumnya masih ada dalam menu Muat. Dunia Sama terus bermain dalam simpanan yang sama.
+
+Mod ini tersedia dalam 29 bahasa.
+
+Jangan segan memberikan maklum balas di ruangan komen.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

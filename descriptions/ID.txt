@@ -1,0 +1,107 @@
+[img]https://i.imgur.com/Pu2nMwd.gif[/img]
+
+Menambahkan panel Quick Restart di layar kematian yang membawamu kembali ke permainan jauh lebih cepat daripada proses biasa.
+Dua pilihan: mulai ulang di dunia baru atau bangkit kembali di dunia yang sama, keduanya memulihkan karakter aslimu.
+
+Karakter disimpan saat PEMBUATAN dan diterapkan ulang secara otomatis:
+- Nama, jenis kelamin, profesi
+- Sifat, keterampilan, dan resep yang diketahui
+- Penampilan lengkap: rambut, janggut, warna rambut, warna kulit, bulu tubuh, rambut tipis, janggut tipis
+- Semua pakaian yang dikenakan beserta warna dan varian teksturnya
+- Jenis, nada, dan awalan suara
+- Berat karakter
+- Wilayah kemunculan
+
+Pengaturan sandbox direkam otomatis sesaat setelah muncul. Jika pengaturan itu berubah sejak karaktermu dibuat, tombol Dunia Baru akan memintamu memilih antara pengaturan asli dan pengaturan saat ini.
+
+Jika kamu memilih "Lanjutkan dengan karakter baru" alih-alih memakai Quick Restart, karakter baru itu akan menjadi karakter asli yang dimuat pada Quick Restart berikutnya.
+
+Jika mod ini diaktifkan di tengah save, tombol Quick Restart akan dinonaktifkan karena belum ada data karakter yang tersimpan (data disimpan saat pembuatan karakter). Pilih "Lanjutkan dengan karakter baru" sekali, dan Quick Restart akan tersedia sejak kematianmu berikutnya.
+
+[img]https://i.imgur.com/gqWYFPL.gif[/img]
+
+Tombol dadu di panel Quick Restart membuka jendela Opsi Pengacak. Setiap kategori bisa diatur ke Pertahankan (menerapkan ulang karakter tersimpan) atau Acak:
+- Jenis kelamin: mengacak jenis kelamin; semua yang bisa dipindahkan dari penampilanmu tetap dipertahankan
+- Penampilan: mengacak rambut, janggut, warna rambut, dan warna kulit
+- Nama: mengacak nama depan dan nama belakang baru
+- Profesi: mengacak profesi; sifat ikut diacak karena profesi baru mengubah anggaran poin
+- Sifat: mengacak set sifat baru yang mematuhi poin sifat dunia dan saling pengecualian
+- Pakaian: memakaikan pakaian acak dari kumpulan pakaian pembuatan karakter
+- Wilayah kemunculan: mengacak wilayah di antara yang tersedia untuk save, termasuk peta mod
+
+Khusus Dunia Baru:
+- Seed: membuat seed dunia baru
+- Zombie: mengacak pengaturan zombie sepenuhnya
+- Pengaturan sandbox: mengacak semua hal lainnya, zombie mengikuti opsi Zombie. Ini BENAR-BENAR acak dan dunianya bisa menjadi ekstrem atau nyaris tidak bisa dimainkan. Kamu sudah diperingatkan... dua kali, ada juga popup peringatan.
+- Pengaturan sandbox mod: mengacak sepenuhnya opsi sandbox yang ditambahkan mod lain (hanya tampil jika setidaknya satu mod aktif menambahkan opsi sandbox)
+
+[img]https://i.imgur.com/Y6jzQpX.png[/img]
+
+Quick Restart menyentuh banyak mekanik permainan. Mod ini membaca dan menulis ulang:
+- Pembuatan karakter: nama, jenis kelamin, profesi, dan sifat
+- Keterampilan, XP, dan resep yang diketahui
+- Penampilan dan suara
+- Pakaian yang dikenakan dan item perlengkapan awal
+- Data mod karakter dan deskriptor (biasanya dengan cara inilah kustomisasi karakter dari mod bertahan setelah restart)
+- Wilayah kemunculan dan pemilihan peta
+- Pembuatan dunia: pengaturan sandbox dan seed dunia
+- Daftar mod bawaan (khusus Dunia Baru, dicadangkan dan dipulihkan otomatis)
+- Antarmuka layar kematian
+
+Mod yang mengubah salah satu mekanik ini dengan cara yang tidak diduga Quick Restart bisa menimbulkan masalah kompatibilitas. Yang paling sering: data karakter atau dunia tidak bisa disimpan, dan saat kamu mati tombol Quick Restart memberi tahu bahwa tidak ada data yang tersimpan. Jika itu terjadi, kirim pesan di diskusi Bugs beserta daftar modmu, saya akan melihat apa yang bisa dilakukan untuk memperluas skenario yang ditangani mod ini.
+
+Item mod yang tidak bisa direkam akan dilewati saja: item itu tidak diterapkan ulang saat Quick Restart, tetapi semua yang lain seharusnya diterapkan.
+
+[img]https://i.imgur.com/HQ2KJLs.png[/img]
+
+Permainan tidak melepaskan seluruh memorinya saat dunia dimuat ulang. Ini masalah mesin game: terjadi dengan atau tanpa mod ini, tetapi restart yang sering membuatnya muncul lebih cepat.
+
+Quick Restart memantaunya untukmu:
+- Mod ini memperkirakan berapa kali restart tersisa sebelum memori permainan habis.
+- Saat angkanya rendah, peringatan muncul ketika kamu memakai Quick Restart, tidak pernah saat bermain.
+- Kamu lalu bisa menutup permainan (dunia baru akan dimuat sendiri begitu kamu membukanya lagi) atau lanjut tanpa menutup.
+- Perkiraan ini menyesuaikan diri dengan komputer dan daftar modmu seiring waktu.
+
+Jika kamu membuka permainan lagi nanti, bukan langsung, sebuah prompt di menu utama akan menanyakan apakah kamu masih ingin dunia baru yang tertunda itu.
+
+Tips: Semakin banyak zombie, semakin cepat kamu harus me-restart permainan, jadi ingat hal ini saat menyiapkan permainan berikutnya!
+
+Semoga The Indie Stone segera memperbaikinya dan saya bisa menghapus fitur ini, tetapi sementara itu, inilah yang terbaik yang bisa saya lakukan untuk menguranginya! Beri tahu saya bagaimana rasanya.
+
+[img]https://i.imgur.com/f9qefDM.png[/img]
+
+Q: Apakah opsi kematian normal dihapus?
+A: Tidak, semuanya masih ada. Quick Restart bahkan menghapus jeda vanilla, jadi opsi itu langsung muncul alih-alih perlahan memudar masuk.
+
+Q: Apakah bisa di multiplayer?
+A: Ya, Quick Restart di dunia yang sama berfungsi di multiplayer. Quick Restart dunia baru hanya untuk pemain tunggal dan juga dinonaktifkan di layar terpisah. (Kamu tidak mau menghapus dunia tempat semua orang bermain!... Kan?)
+
+Q: Apakah XP sebelum mati dikembalikan?
+A: Tidak. Karaktermu disimpan saat pembuatan, jadi kamu memulai ulang dengan keterampilan dan XP awal. Semua yang didapat selama permainan hilang. Ini restart cepat, bukan kebangkitan.
+
+Q: Saya menemukan bug, apa yang harus saya lakukan?
+A: Kirim pesan di diskusi Bugs beserta daftar modmu dan penjelasan tentang apa yang terjadi. Jika bisa, tempelkan error dari console.txt (ada di C:\Users\NamaKamu\Zomboid), itu membuat penyebabnya jauh lebih cepat ditemukan.
+
+Q: Saya ingin menyarankan perbaikan / punya ide fitur baru, apa yang harus saya lakukan?
+A: Tulis di bagian komentar, saya membaca semuanya. Tidak ada janji, tetapi ide bagus sering berakhir di mod ini.
+
+Q: Bisakah saya mengacak sebagian saja, misalnya penampilan, dan mempertahankan build saya?
+A: Bisa. Tombol dadu memungkinkanmu mengatur setiap kategori (jenis kelamin, penampilan, nama, profesi, sifat, pakaian, wilayah kemunculan, seed, zombie, sandbox, sandbox mod) ke Pertahankan atau Acak secara terpisah.
+
+Q: Bisakah saya restart dari menu utama / tanpa mati?
+A: Tidak secara manual, panel ini hanya ada di layar kematian. Menu utama hanya melanjutkan dunia baru yang masih tertunda saat permainan ditutup. Jika kamu baru saja digigit, nikmati saat-saat terakhirmu.
+
+Q: Saya ingin mempertahankan level keterampilan dan XP setelah mati, bisakah mod ini melakukannya?
+A: Tidak, itu kebalikan dari tujuan mod ini. Tetapi saya sedang mengerjakan varian bernama Quick Respawn yang akan melakukan persis itu, nantikan.
+
+Q: Kenapa tombol Quick Restart berwarna abu-abu?
+A: Entah mod diaktifkan di tengah save sehingga tidak ada data karakter yang direkam (perekaman terjadi saat pembuatan karakter), atau kamu mati terlalu cepat sebelum perekaman selesai (berjalan sesaat setelah muncul). Pilih "Lanjutkan dengan karakter baru" sekali dan tombolnya akan berfungsi sejak kematian berikutnya. Jika ini terus terjadi, mungkin ada ketidakcocokan serius dengan mod lain, tolong beri tahu saya!
+
+Q: Apakah Dunia Baru menghapus dunia saya saat ini?
+A: Tidak. Dunia Baru membuat dunia yang benar-benar baru sebagai save terpisah. Dunia sebelumnya masih ada di menu Muat. Dunia yang Sama tetap bermain di save yang sama.
+
+Mod ini tersedia dalam 29 bahasa.
+
+Jangan ragu memberikan masukan di bagian komentar.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

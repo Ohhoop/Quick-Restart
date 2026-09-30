@@ -1,0 +1,101 @@
+[img]https://i.imgur.com/Pu2nMwd.gif[/img]
+
+Ölüm ekranına, sizi normal süreçten çok daha hızlı şekilde oyuna geri döndüren bir Quick Restart paneli ekler.
+İki seçenek: yeni bir dünyada yeniden başlayın ya da aynı dünyada yeniden doğun, ikisi de orijinal karakterinizi geri getirir.
+
+Karakter OLUŞTURMA sırasında kaydedilir ve otomatik olarak yeniden uygulanır:
+- İsim, cinsiyet, meslek
+- Özellikler, beceriler ve bilinen tarifler
+- Tam görünüm: saç, sakal, saç rengi, ten rengi, vücut kılları, saç dipleri, sakal dipleri
+- Renkleri ve doku varyantlarıyla birlikte giyilen tüm kıyafetler
+- Ses tipi, perde ve önek
+- Karakter kilosu
+- Doğma bölgesi
+
+Sandbox ayarları doğduktan kısa süre sonra otomatik olarak kaydedilir. Karakteriniz oluşturulduğundan beri değiştiyse, Yeni Dünya düğmesi orijinal ayarlarla mevcut ayarlar arasında seçim yapmanızı ister.
+
+Quick Restart yerine "Yeni bir karakterle devam et" seçeneğini seçerseniz, bu yeni karakter bir sonraki Quick Restart'ta yüklenecek yeni orijinal olur.
+
+Mod bir kaydın ortasında etkinleştirilirse, karakter verisi kaydedilmediği için Quick Restart düğmeleri devre dışı kalır (veri karakter oluşturulurken kaydedilir). Bir kez "Yeni bir karakterle devam et" seçin, Quick Restart bir sonraki ölümünüzden itibaren kullanılabilir olur.
+
+[img]https://i.imgur.com/gqWYFPL.gif[/img]
+
+Quick Restart panelindeki zar düğmesi Rastgele Seçenekleri penceresini açar. Her kategori Koru (kayıtlı karakteri yeniden uygula) veya Rastgele olarak ayarlanabilir:
+- Cinsiyet: rastgele bir cinsiyet seçer; görünümünüzden aktarılabilen her şey korunur
+- Görünüm: saç, sakal, saç rengi ve ten rengini rastgele seçer
+- İsim: rastgele yeni bir ad ve soyad seçer
+- Meslek: rastgele bir meslek seçer; yeni meslek puan bütçesini değiştirdiği için özellikler de onunla birlikte rastgele seçilir
+- Özellikler: dünyanın özellik puanlarına ve karşılıklı dışlamalara uyan yeni bir özellik seti seçer
+- Kıyafet: karakter oluşturma kıyafet havuzundan rastgele bir kıyafet giydirir
+- Doğma bölgesi: kayıt için mevcut bölgeler arasından, modlu haritalar dahil, rastgele birini seçer
+
+Yalnızca Yeni Dünya:
+- Seed: yeni bir dünya seed'i üretir
+- Zombiler: zombi ayarlarını tamamen rastgele yapar
+- Sandbox ayarları: geri kalan her şeyi tamamen rastgele yapar, zombiler Zombiler seçeneğini izler. GERÇEKTEN rastgeledir ve dünya aşırı ya da zar zor oynanabilir çıkabilir. Uyarıldınız... iki kez, bir uyarı penceresi de var.
+- Mod sandbox ayarları: diğer modlarınızın eklediği sandbox seçeneklerini tamamen rastgele yapar (yalnızca en az bir etkin mod sandbox seçeneği ekliyorsa görünür)
+
+[img]https://i.imgur.com/Y6jzQpX.png[/img]
+
+Quick Restart birçok oyun mekaniğine dokunur. Şunları okur ve yeniden yazar:
+- Karakter oluşturma: isim, cinsiyet, meslek ve özellikler
+- Beceriler, XP ve bilinen tarifler
+- Görünüm ve ses
+- Giyilen kıyafetler ve başlangıç kiti eşyaları
+- Karakter ve tanımlayıcı mod verileri (modlu karakter özelleştirmesi genellikle yeniden başlatmadan bu sayede sağ çıkar)
+- Doğma bölgeleri ve harita seçimi
+- Dünya oluşturma: sandbox ayarları ve dünya seed'i
+- Varsayılan mod listesi (yalnızca Yeni Dünya, otomatik olarak yedeklenir ve geri yüklenir)
+- Ölüm ekranı arayüzü
+
+Bu mekaniklerden birini Quick Restart'ın beklemediği şekilde değiştiren bir mod uyumluluk sorunlarına yol açabilir. En sık görüleni: karakter veya dünya verisi kaydedilemez ve öldüğünüzde Quick Restart düğmeleri hiçbir veri kaydedilmediğini söyler. Bu sizin başınıza gelirse, lütfen mod listenizle birlikte Bugs tartışmasına bir mesaj yazın, modun ele aldığı senaryoları genişletmek için ne yapabileceğime bakacağım.
+
+Kaydedilemeyen modlu eşyalar basitçe atlanır: Quick Restart'ta yeniden uygulanmazlar, geri kalan her şey uygulanmalıdır.
+
+[img]https://i.imgur.com/HQ2KJLs.png[/img]
+
+Oyun, bir dünya yeniden yüklendiğinde belleğinin tamamını serbest bırakmaz. Bu bir motor sorunudur: bu modla ya da mod olmadan yaşanır, ancak sık yeniden başlatmalar daha çabuk ortaya çıkmasına neden olur.
+
+Quick Restart bunu sizin için takip eder:
+- Oyunun belleği tükenmeden önce kaç yeniden başlatma kaldığını tahmin eder.
+- Bu sayı azaldığında, uyarı Quick Restart'ı kullandığınız anda gösterilir, asla oynanış sırasında değil.
+- Ardından oyunu kapatabilir (yeni dünya oyunu tekrar başlattığınız anda kendiliğinden yüklenir) ya da kapatmadan devam edebilirsiniz.
+- Tahmin zamanla bilgisayarınıza ve mod listenize göre kendini ayarlar.
+
+Oyunu hemen değil de daha sonra başlatırsanız, ana menüdeki bir pencere bekleyen o yeni dünyayı hâlâ isteyip istemediğinizi sorar.
+
+İpucu: Ne kadar çok zombi olursa, oyunu o kadar çabuk yeniden başlatmanız gerekir, bir sonraki oyununuzu ayarlarken bunu aklınızda tutun!
+
+Umarım The Indie Stone bunu kısa sürede düzeltir ve ben de bunu kaldırabilirim, ama o zamana kadar bunu hafifletmek için yapabileceğimin en iyisi bu! Lütfen nasıl hissettirdiğini bana bildirin.
+
+[img]https://i.imgur.com/f9qefDM.png[/img]
+
+Q: Normal ölüm seçeneklerini kaldırdın mı?
+A: Hayır, hepsi hâlâ orada. Quick Restart vanilla gecikmeyi bile kaldırır, böylece yavaşça belirmek yerine hemen görünürler.
+
+Q: Çok oyunculu modda çalışıyor mu?
+A: Evet, aynı dünyada Quick Restart çok oyunculu modda çalışır. Yeni dünyada Quick Restart yalnızca tek oyunculudur ve bölünmüş ekranda da devre dışıdır. (Herkesin oynadığı dünyayı silmek istemezsiniz!... Değil mi?)
+
+Q: Ölmeden önceki XP'mi geri veriyor mu?
+A: Hayır. Karakteriniz oluşturma sırasında kaydedilir, bu yüzden orijinal başlangıç becerileri ve XP ile yeniden başlarsınız. Oyun boyunca kazanılan her şey kaybolur. Bu hızlı bir yeniden başlatma, diriliş değil.
+
+Q: Bir hata buldum, ne yapmalıyım?
+A: Mod listeniz ve olanların açıklamasıyla birlikte Bugs tartışmasına bir mesaj yazın. Mümkünse console.txt dosyanızdaki hatayı yapıştırın (C:\Users\KullanıcıAdınız\Zomboid içinde), bu nedeni bulmayı çok hızlandırır.
+
+Q: Ana menüden / ölmeden yeniden başlatabilir miyim?
+A: Elle değil, panel yalnızca ölüm ekranında bulunur. Ana menü yalnızca oyun kapandığında hâlâ bekleyen bir yeni dünyayı sürdürür. Az önce ısırıldıysanız, son anlarınızın tadını çıkarın.
+
+Q: Öldükten sonra beceri seviyelerimi ve XP'mi korumak istiyorum, bu mod bunu yapabilir mi?
+A: Hayır, bu modun amacının tam tersi. Ama tam olarak bunu yapacak Quick Respawn adlı bir varyant üzerinde çalışıyorum, takipte kalın.
+
+Q: Quick Restart düğmeleri neden gri?
+A: Ya mod bir kaydın ortasında etkinleştirildi ve bu yüzden karakter verisi kaydedilmedi (karakter oluşturulurken yapılır), ya da kayıt tamamlanamadan çok hızlı öldünüz (doğduktan hemen sonra çalışır). Bir kez "Yeni bir karakterle devam et" seçin, düğmeler bir sonraki ölümünüzden itibaren çalışır. Bu sürekli oluyorsa başka bir modla ciddi bir uyumsuzluk olabilir, lütfen bana bildirin!
+
+Q: Yeni Dünya mevcut dünyamı siler mi?
+A: Hayır. Yeni Dünya ayrı bir kayıt olarak yepyeni bir dünya oluşturur. Önceki dünya Yükle menüsünde durmaya devam eder. Aynı Dünya aynı kayıtta oynamaya devam eder.
+
+Mod 29 dilde mevcuttur.
+
+Yorumlar bölümünde her türlü geri bildiriminizi paylaşmaktan çekinmeyin.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

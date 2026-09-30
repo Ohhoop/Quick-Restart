@@ -1,0 +1,104 @@
+[img]https://i.imgur.com/Pu2nMwd.gif[/img]
+
+Adiciona um painel Quick Restart à tela de morte que te leva de volta ao jogo muito mais rápido do que o processo normal.
+Duas opções: recomeçar em um MUNDO NOVO ou renascer no MESMO MUNDO, ambas restaurando o seu personagem original.
+
+O personagem é salvo na CRIAÇÃO e reaplicado automaticamente:
+- Nome, gênero, profissão
+- Traços, habilidades e receitas conhecidas
+- Aparência completa: cabelo, barba, cor do cabelo, tom de pele, pelos do corpo, cabelo por fazer, barba por fazer
+- Todas as roupas vestidas, com cores e variantes de textura
+- Tipo de voz, tom e prefixo
+- Peso do personagem
+- Região de nascimento
+
+As configurações sandbox são capturadas automaticamente logo depois que você nasce. Se tiverem mudado desde a criação do personagem, o botão MUNDO NOVO vai pedir para você escolher entre as configurações originais e as atuais.
+
+Se você escolher "Continuar com novo personagem" em vez de usar o Quick Restart, esse novo personagem vira o novo original recarregado no próximo Quick Restart.
+
+Se este mod for ativado no meio de um save, os botões Quick Restart ficam desativados, porque nenhum dado do personagem foi salvo: isso acontece na criação do personagem. Use "Continuar com novo personagem" uma vez e o Quick Restart fica disponível a partir da sua próxima morte.
+
+[img]https://i.imgur.com/gqWYFPL.gif[/img]
+
+Um botão de dado no painel Quick Restart abre a janela OPÇÕES DE ALEATORIEDADE. Cada categoria pode ficar em Manter (reaplica o personagem salvo) ou Aleatório:
+- Gênero: sorteia um gênero; tudo o que puder ser transferido da aparência é mantido
+- Aparência: sorteia cabelo, barba, cor do cabelo e tom de pele
+- Nome: sorteia um novo nome e sobrenome
+- Profissão: sorteia uma profissão; os traços são sorteados junto, já que uma nova profissão muda o orçamento de pontos
+- Traços: sorteia um novo conjunto de traços que respeita os pontos de traço do mundo e as exclusões mútuas
+- Roupas: veste você com um conjunto aleatório das roupas da criação de personagem
+- Região de nascimento: sorteia uma região entre as disponíveis para o save, mapas de mods incluídos
+
+Só MUNDO NOVO:
+- Seed: gera uma nova seed de mundo
+- Zumbis: deixa as configurações de zumbis totalmente aleatórias
+- Configurações sandbox: deixa todo o resto totalmente aleatório, os zumbis seguem a opção Zumbis. É aleatório DE VERDADE e o mundo pode ficar extremo ou quase injogável. Você foi avisado... duas vezes, também tem um popup de aviso.
+- Configurações sandbox de mods: deixa totalmente aleatórias as opções sandbox adicionadas pelos seus outros mods (só aparece quando pelo menos um mod ativo adiciona opções sandbox)
+
+[img]https://i.imgur.com/Y6jzQpX.png[/img]
+
+O Quick Restart mexe em várias mecânicas do jogo. Ele lê e reescreve:
+- Criação de personagem: nome, gênero, profissão e traços
+- Habilidades, XP e receitas conhecidas
+- Aparência e voz
+- Roupas vestidas e itens do kit inicial
+- Dados de mod do personagem e do descritor (é assim que a personalização de personagem de outros mods costuma sobreviver a um reinício)
+- Regiões de nascimento e seleção de mapa
+- Criação do mundo: configurações sandbox e seed do mundo
+- A lista de mods padrão (só MUNDO NOVO, com backup e restauração automáticos)
+- A interface da tela de morte
+
+Um mod que altere uma dessas mecânicas de um jeito que o Quick Restart não espera pode causar problemas de compatibilidade. O mais comum: os dados do personagem ou do mundo não podem ser salvos e, quando você morre, os botões Quick Restart avisam que nenhum dado foi salvo. Se isso acontecer com você, poste uma mensagem na discussão Bugs com a sua lista de mods, vou ver o que posso fazer para ampliar os cenários que o mod suporta.
+
+Itens de mods que não podem ser capturados são simplesmente ignorados: eles não serão reaplicados no Quick Restart, todo o resto deve ser.
+
+[img]https://i.imgur.com/HQ2KJLs.png[/img]
+
+O jogo não libera toda a memória quando um mundo é recarregado. É um problema do motor: acontece com ou sem este mod, mas reinícios frequentes fazem ele aparecer mais cedo.
+
+O Quick Restart fica de olho nisso para você:
+- Ele estima quantos reinícios faltam até o jogo ficar sem memória.
+- Quando esse número fica baixo, aparece um aviso na hora em que você usa o Quick Restart, nunca durante o jogo.
+- Aí você pode fechar o jogo (o mundo novo carrega sozinho assim que você abrir de novo) ou continuar sem fechar.
+- A estimativa se calibra com o tempo para a sua máquina e a sua lista de mods.
+
+Se você abrir o jogo de novo mais tarde em vez de na hora, uma janela no menu principal pergunta se você ainda quer aquele mundo novo pendente.
+
+Dica: quanto mais zumbis você tiver, mais cedo vai precisar reiniciar o jogo, então tenha isso em mente ao preparar a sua próxima partida!
+
+Tomara que a The Indie Stone corrija isso logo e eu possa tirar tudo isso, mas enquanto isso, foi o melhor que consegui fazer para amenizar! Me conta o que achou.
+
+[img]https://i.imgur.com/f9qefDM.png[/img]
+
+Q: Você removeu as opções de morte normais?
+A: Não, elas continuam todas lá. O Quick Restart até remove o atraso vanilla, então elas aparecem na hora em vez de surgirem devagar.
+
+Q: Funciona no multiplayer?
+A: Sim, o Quick Restart no mesmo mundo funciona no multiplayer. O Quick Restart em mundo novo é só para um jogador e também fica desativado em tela dividida. (Você não quer apagar o mundo em que todo mundo está jogando!... Né?)
+
+Q: Isso me devolve o XP que eu tinha antes de morrer?
+A: Não. O personagem é salvo na criação, então você recomeça com as habilidades e o XP iniciais. Tudo o que foi ganho durante a partida se perde. É um reinício rápido, não uma ressurreição.
+
+Q: Encontrei um bug, o que eu faço?
+A: Poste uma mensagem na discussão Bugs com a sua lista de mods e uma descrição do que aconteceu. Se puder, cole o erro do seu console.txt (em C:\Users\SeuNome\Zomboid), isso ajuda muito a achar a causa.
+
+Q: Posso deixar aleatórias só algumas coisas, como a aparência, e manter a minha build?
+A: Sim. O botão de dado permite colocar cada categoria (gênero, aparência, nome, profissão, traços, roupas, região de nascimento, seed, zumbis, sandbox, sandbox de mods) em Manter ou Aleatório de forma independente.
+
+Q: Posso recomeçar pelo menu principal / sem morrer?
+A: Manualmente não, o painel só existe na tela de morte. O menu principal só retoma um mundo novo que ainda estava pendente quando o jogo foi fechado. Se você acabou de ser mordido, aproveite seus últimos momentos.
+
+Q: Quero manter meus níveis de habilidade e meu XP depois de morrer, esse mod faz isso?
+A: Não, isso é o oposto do objetivo deste mod. Mas estou trabalhando em uma variante chamada Quick Respawn que vai fazer exatamente isso, fique ligado.
+
+Q: Por que os botões Quick Restart estão cinza?
+A: Ou o mod foi ativado no meio de um save, então nenhum dado do personagem foi capturado (isso acontece na criação do personagem), ou você morreu rápido demais para a captura terminar (ela roda instantes depois que você nasce). Use "Continuar com novo personagem" uma vez e os botões vão funcionar a partir da sua próxima morte. Se isso continuar acontecendo, pode haver uma incompatibilidade importante com outro mod, me avise!
+
+Q: MUNDO NOVO apaga o meu mundo atual?
+A: Não. MUNDO NOVO gera um mundo totalmente novo em um save separado. O mundo anterior continua lá no menu Carregar. MESMO MUNDO continua jogando no mesmo save.
+
+O mod está disponível em 29 idiomas.
+
+Fique à vontade para deixar qualquer feedback na seção de comentários.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

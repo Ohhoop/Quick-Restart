@@ -1,0 +1,107 @@
+[img]https://i.imgur.com/Pu2nMwd.gif[/img]
+
+Tilføjer et Quick Restart-panel på dødsskærmen, der får dig tilbage i spillet markant hurtigere end den normale proces.
+To muligheder: Genstart i en ny verden eller genopstå i den samme, begge gendanner din oprindelige karakter.
+
+Karakteren gemmes ved OPRETTELSEN og anvendes automatisk igen:
+- Navn, køn, erhverv
+- Egenskaber, færdigheder og kendte opskrifter
+- Hele udseendet: hår, skæg, hårfarve, hudfarve, kropsbehåring, hårstubbe, skægstubbe
+- Alt båret tøj med farver og teksturvarianter
+- Stemmetype, tonehøjde og præfiks
+- Karakterens vægt
+- Startregion
+
+Sandbox-indstillingerne gemmes automatisk kort efter spawn. Hvis de er ændret siden din karakter blev oprettet, beder knappen Ny verden dig vælge mellem de oprindelige og de nuværende indstillinger.
+
+Hvis du vælger "Fortsæt med en ny karakter" i stedet for Quick Restart, bliver den nye karakter den nye original, der indlæses ved næste Quick Restart.
+
+Hvis modden aktiveres midt i et gemt spil, er Quick Restart-knapperne deaktiveret, da der ikke er gemt nogen karakterdata (de gemmes ved karakteroprettelsen). Vælg "Fortsæt med en ny karakter" én gang, så er Quick Restart tilgængelig fra din næste død.
+
+[img]https://i.imgur.com/gqWYFPL.gif[/img]
+
+En terningknap på Quick Restart-panelet åbner vinduet Tilfældighedsindstillinger. Hver kategori kan sættes til Behold (genanvend din gemte karakter) eller Tilfældig:
+- Køn: slår et køn; alt, der kan overføres fra dit udseende, bevares
+- Udseende: slår hår, skæg, hårfarve og hudfarve
+- Navn: slår et nyt for- og efternavn
+- Erhverv: slår et erhverv; egenskaberne slås med, da et nyt erhverv ændrer pointbudgettet
+- Egenskaber: slår et nyt sæt egenskaber, der respekterer verdenens egenskabspoint og gensidige udelukkelser
+- Tøj: klæder dig i et tilfældigt outfit fra karakteroprettelsens outfitpulje
+- Startregion: slår en region blandt dem, der er tilgængelige for det gemte spil, moddede kort inklusive
+
+Kun Ny verden:
+- Seed: genererer et nyt verdensseed
+- Zombier: gør zombieindstillingerne helt tilfældige
+- Sandbox-indstillinger: gør alt andet helt tilfældigt, zombierne følger Zombier-indstillingen. Det er VIRKELIG tilfældigt, og verdenen kan blive ekstrem eller knap spilbar. Du er blevet advaret... to gange, der er også en advarselsboks.
+- Mod-sandbox-indstillinger: gør sandbox-indstillingerne fra dine andre mods helt tilfældige (vises kun, når mindst én aktiv mod tilføjer sandbox-indstillinger)
+
+[img]https://i.imgur.com/Y6jzQpX.png[/img]
+
+Quick Restart berører mange spilmekanikker. Den læser og omskriver:
+- Karakteroprettelse: navn, køn, erhverv og egenskaber
+- Færdigheder, XP og kendte opskrifter
+- Udseende og stemme
+- Båret tøj og genstande fra startpakken
+- Mod-data for karakter og beskrivelse (sådan overlever moddet karaktertilpasning normalt en genstart)
+- Startregioner og kortvalg
+- Verdensoprettelse: sandbox-indstillinger og verdensseed
+- Standardlisten over mods (kun Ny verden, sikkerhedskopieres og gendannes automatisk)
+- Dødsskærmens brugerflade
+
+En mod, der ændrer en af disse mekanikker på en måde, Quick Restart ikke forventer, kan give kompatibilitetsproblemer. Det hyppigste: karakter- eller verdensdata kan ikke gemmes, og når du dør, fortæller Quick Restart-knapperne dig, at der ikke blev gemt nogen data. Hvis det sker for dig, så skriv en besked i Bugs-diskussionen med din modliste, så ser jeg, hvad jeg kan gøre for at udvide de scenarier, modden håndterer.
+
+Moddede genstande, der ikke kan gemmes, springes simpelthen over: de genanvendes ikke ved Quick Restart, men alt andet bør blive det.
+
+[img]https://i.imgur.com/HQ2KJLs.png[/img]
+
+Spillet frigiver ikke al sin hukommelse, når en verden genindlæses. Det er et problem i motoren: det sker med eller uden denne mod, men hyppige genstarter får det til at vise sig hurtigere.
+
+Quick Restart holder øje med det for dig:
+- Den anslår, hvor mange genstarter der er tilbage, før spillet løber tør for hukommelse.
+- Når tallet bliver lavt, vises en advarsel i det øjeblik, du bruger Quick Restart, aldrig under spillet.
+- Du kan derefter lukke spillet (den nye verden indlæses af sig selv, så snart du starter det igen) eller fortsætte uden at lukke.
+- Estimatet kalibrerer sig selv efter din maskine og din modliste over tid.
+
+Hvis du starter spillet igen senere i stedet for med det samme, spørger en boks i hovedmenuen, om du stadig vil have den ventende nye verden.
+
+Tip: Jo flere zombier du har, jo hurtigere skal du genstarte dit spil, så husk det, når du sætter din næste runde op!
+
+Forhåbentlig retter The Indie Stone det snart, så jeg kan fjerne dette, men indtil da er det det bedste, jeg kunne gøre for at afbøde det! Fortæl mig gerne, hvordan det føles.
+
+[img]https://i.imgur.com/f9qefDM.png[/img]
+
+Q: Har du fjernet de normale dødsmuligheder?
+A: Nej, de er der alle stadig. Quick Restart fjerner endda vanilla-forsinkelsen, så de vises med det samme i stedet for langsomt at tone frem.
+
+Q: Virker det i multiplayer?
+A: Ja, Quick Restart i samme verden virker i multiplayer. Quick Restart i en ny verden er kun til singleplayer og er også deaktiveret i delt skærm. (Du vil jo ikke slette den verden, alle andre spiller i!... Vel?)
+
+Q: Får man den XP tilbage, man havde, før man døde?
+A: Nej. Din karakter gemmes ved oprettelsen, så du starter forfra med dine oprindelige startfærdigheder og XP. Alt, hvad du har optjent i løbet af runden, går tabt. Det er en hurtig genstart, ikke en genopstandelse.
+
+Q: Jeg har fundet en fejl, hvad skal jeg gøre?
+A: Skriv en besked i Bugs-diskussionen med din modliste og en beskrivelse af, hvad der skete. Hvis du kan, så indsæt fejlen fra din console.txt (findes i C:\Users\DitNavn\Zomboid), det gør det meget hurtigere at finde årsagen.
+
+Q: Jeg vil gerne foreslå en forbedring / jeg har en idé til en ny funktion, hvad skal jeg gøre?
+A: Skriv det i kommentarfeltet, jeg læser alt. Ingen løfter, men gode idéer har det med at ende i modden.
+
+Q: Kan jeg gøre kun nogle ting tilfældige, som udseendet, og beholde mit build?
+A: Ja. Terningknappen lader dig sætte hver kategori (køn, udseende, navn, erhverv, egenskaber, tøj, startregion, seed, zombier, sandbox, mod-sandbox) til Behold eller Tilfældig uafhængigt af hinanden.
+
+Q: Kan jeg genstarte fra hovedmenuen / uden at dø?
+A: Ikke manuelt, panelet findes kun på dødsskærmen. Hovedmenuen genoptager kun en ny verden, der stadig ventede, da spillet blev lukket. Hvis du lige er blevet bidt, så nyd dine sidste øjeblikke.
+
+Q: Jeg vil beholde mine færdighedsniveauer og min XP efter døden, kan den det?
+A: Nej, det er det modsatte af, hvad denne mod er til. Men jeg arbejder på en variant kaldet Quick Respawn, der vil gøre præcis det, så hold øje.
+
+Q: Hvorfor er Quick Restart-knapperne grå?
+A: Enten blev modden aktiveret midt i et gemt spil, så der ikke blev gemt nogen karakterdata (det sker ved karakteroprettelsen), eller du døde for hurtigt til, at lagringen kunne blive færdig (den kører kort efter spawn). Vælg "Fortsæt med en ny karakter" én gang, så virker knapperne fra din næste død. Hvis det bliver ved med at ske, kan der være en alvorlig inkompatibilitet med en anden mod, så sig endelig til!
+
+Q: Sletter Ny verden min nuværende verden?
+A: Nej. Ny verden genererer en helt ny verden som et separat gemt spil. Den tidligere verden ligger stadig i Indlæs-menuen. Samme verden fortsætter i det samme gemte spil.
+
+Modden findes på 29 sprog.
+
+Del gerne din feedback i kommentarfeltet.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

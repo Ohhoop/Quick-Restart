@@ -1,0 +1,107 @@
+[img]https://i.imgur.com/Pu2nMwd.gif[/img]
+
+Lisää kuolemaruutuun Quick Restart -paneelin, joka vie sinut takaisin peliin huomattavasti tavallista nopeammin.
+Kaksi vaihtoehtoa: aloita alusta uudessa maailmassa tai herää henkiin samassa, kumpikin palauttaa alkuperäisen hahmosi.
+
+Hahmo tallennetaan LUONNIN yhteydessä ja palautetaan automaattisesti:
+- Nimi, sukupuoli, ammatti
+- Ominaisuudet, taidot ja tunnetut reseptit
+- Koko ulkonäkö: hiukset, parta, hiusten väri, ihonsävy, karvoitus, hiussänki, partasänki
+- Kaikki päällä olevat vaatteet väreineen ja tekstuurimuunnelmineen
+- Äänityyppi, äänenkorkeus ja etuliite
+- Hahmon paino
+- Aloitusalue
+
+Sandbox-asetukset tallennetaan automaattisesti pian syntymisen jälkeen. Jos ne ovat muuttuneet hahmosi luomisen jälkeen, Uusi maailma -painike pyytää sinua valitsemaan alkuperäisten ja nykyisten asetusten välillä.
+
+Jos valitset Quick Restartin sijaan "Jatka uudella hahmolla", tästä uudesta hahmosta tulee uusi alkuperäinen, joka ladataan seuraavassa Quick Restartissa.
+
+Jos modi otetaan käyttöön kesken tallennuksen, Quick Restart -painikkeet ovat pois käytöstä, koska hahmotietoja ei ole tallennettu (ne tallennetaan hahmon luonnissa). Valitse kerran "Jatka uudella hahmolla", niin Quick Restart on käytettävissä seuraavasta kuolemastasi alkaen.
+
+[img]https://i.imgur.com/gqWYFPL.gif[/img]
+
+Quick Restart -paneelin noppapainike avaa Satunnaistusasetukset-ikkunan. Jokaisen kategorian voi asettaa tilaan Säilytä (tallennettu hahmo palautetaan) tai Satunnainen:
+- Sukupuoli: arpoo sukupuolen; kaikki ulkonäöstä siirrettävissä oleva säilyy
+- Ulkonäkö: arpoo hiukset, parran, hiusten värin ja ihonsävyn
+- Nimi: arpoo uuden etu- ja sukunimen
+- Ammatti: arpoo ammatin; ominaisuudet arvotaan samalla, koska uusi ammatti muuttaa pistebudjettia
+- Ominaisuudet: arpoo uudet ominaisuudet, jotka noudattavat maailman ominaisuuspisteitä ja keskinäisiä poissulkemisia
+- Vaatteet: pukee sinut satunnaiseen asuun hahmonluonnin asuvalikoimasta
+- Aloitusalue: arpoo alueen tallennukselle saatavilla olevista, modatut kartat mukaan lukien
+
+Vain Uusi maailma:
+- Siemen: luo uuden maailman siemenen
+- Zombit: satunnaistaa zombiasetukset täysin
+- Sandbox-asetukset: satunnaistaa kaiken muun täysin, zombit noudattavat Zombit-valintaa. Se on OIKEASTI satunnaista, ja maailmasta voi tulla äärimmäinen tai tuskin pelattava. Sinua on varoitettu... kahdesti, sillä myös varoitusikkuna ponnahtaa esiin.
+- Modien sandbox-asetukset: satunnaistaa täysin muiden modiesi lisäämät sandbox-asetukset (näkyy vain, kun vähintään yksi aktiivinen modi lisää sandbox-asetuksia)
+
+[img]https://i.imgur.com/Y6jzQpX.png[/img]
+
+Quick Restart koskee moniin pelimekaniikkoihin. Se lukee ja kirjoittaa uudelleen:
+- Hahmonluonti: nimi, sukupuoli, ammatti ja ominaisuudet
+- Taidot, XP ja tunnetut reseptit
+- Ulkonäkö ja ääni
+- Päällä olevat vaatteet ja aloituspakkauksen esineet
+- Hahmon ja kuvauksen modidata (näin modattu hahmon muokkaus yleensä säilyy uudelleenkäynnistyksen yli)
+- Aloitusalueet ja kartan valinta
+- Maailman luonti: sandbox-asetukset ja maailman siemen
+- Oletusmodilista (vain Uusi maailma, varmuuskopioidaan ja palautetaan automaattisesti)
+- Kuolemaruudun käyttöliittymä
+
+Modi, joka muuttaa jotakin näistä mekaniikoista tavalla, jota Quick Restart ei odota, voi aiheuttaa yhteensopivuusongelmia. Yleisin: hahmon tai maailman tietoja ei voida tallentaa, ja kuollessasi Quick Restart -painikkeet kertovat, ettei tietoja tallennettu. Jos näin käy, kirjoita viesti Bugs-keskusteluun modilistasi kanssa, niin katson, mitä voin tehdä laajentaakseni modin käsittelemiä tilanteita.
+
+Modatut esineet, joita ei voida tallentaa, yksinkertaisesti ohitetaan: niitä ei palauteta Quick Restartissa, mutta kaiken muun pitäisi palautua.
+
+[img]https://i.imgur.com/HQ2KJLs.png[/img]
+
+Peli ei vapauta kaikkea muistiaan, kun maailma ladataan uudelleen. Tämä on pelimoottorin ongelma: se tapahtuu tämän modin kanssa tai ilman, mutta toistuvat uudelleenkäynnistykset tuovat sen esiin nopeammin.
+
+Quick Restart pitää sitä silmällä puolestasi:
+- Se arvioi, montako uudelleenkäynnistystä on jäljellä ennen kuin pelistä loppuu muisti.
+- Kun määrä käy vähiin, varoitus näytetään sillä hetkellä, kun käytät Quick Restartia, ei koskaan pelaamisen aikana.
+- Voit silloin sulkea pelin (uusi maailma latautuu itsestään heti, kun käynnistät pelin uudelleen) tai jatkaa sulkematta.
+- Arvio kalibroituu ajan myötä koneesi ja modilistasi mukaan.
+
+Jos käynnistät pelin uudelleen vasta myöhemmin, päävalikossa kysytään, haluatko vielä odottavan uuden maailman.
+
+Vinkki: Mitä enemmän zombeja sinulla on, sitä nopeammin joudut käynnistämään pelin uudelleen, joten pidä se mielessä seuraavaa kierrosta asettaessasi!
+
+Toivottavasti The Indie Stone korjaa tämän pian ja voin poistaa tämän, mutta siihen asti tämä on parasta, mitä pystyin tekemään sen lieventämiseksi! Kerro, miltä se tuntuu.
+
+[img]https://i.imgur.com/f9qefDM.png[/img]
+
+Q: Poistitko tavalliset kuolemavaihtoehdot?
+A: En, ne ovat kaikki yhä paikallaan. Quick Restart jopa poistaa pelin oman viiveen, joten ne näkyvät heti sen sijaan, että häivyttyisivät hitaasti esiin.
+
+Q: Toimiiko se moninpelissä?
+A: Kyllä, saman maailman Quick Restart toimii moninpelissä. Uuden maailman Quick Restart on vain yksinpeliin, ja se on pois käytöstä myös jaetulla näytöllä. (Et kai halua poistaa maailmaa, jossa kaikki muut pelaavat!... Ethän?)
+
+Q: Saako kuolemaa edeltäneet XP:t takaisin?
+A: Ei. Hahmosi tallennetaan luonnin yhteydessä, joten aloitat alkuperäisillä aloitustaidoilla ja XP:llä. Kaikki kierroksen aikana ansaittu menetetään. Tämä on nopea uudelleenaloitus, ei ylösnousemus.
+
+Q: Löysin bugin, mitä teen?
+A: Kirjoita viesti Bugs-keskusteluun modilistasi ja kuvauksen kanssa siitä, mitä tapahtui. Jos pystyt, liitä virhe console.txt-tiedostostasi (sijainti C:\Users\Nimesi\Zomboid), se nopeuttaa syyn löytämistä huomattavasti.
+
+Q: Haluaisin ehdottaa parannusta / minulla on idea uudesta ominaisuudesta, mitä teen?
+A: Kirjoita se kommenttiosioon, luen kaiken. En lupaa mitään, mutta hyvillä ideoilla on tapana päätyä modiin.
+
+Q: Voinko satunnaistaa vain osan asioista, kuten ulkonäön, ja säilyttää buildini?
+A: Kyllä. Noppapainikkeella voit asettaa jokaisen kategorian (sukupuoli, ulkonäkö, nimi, ammatti, ominaisuudet, vaatteet, aloitusalue, siemen, zombit, sandbox, modien sandbox) erikseen tilaan Säilytä tai Satunnainen.
+
+Q: Voinko aloittaa alusta päävalikosta / kuolematta?
+A: En manuaalisesti, paneeli on vain kuolemaruudussa. Päävalikko jatkaa ainoastaan uutta maailmaa, joka oli vielä odottamassa pelin sulkeutuessa. Jos sinua juuri purtiin, nauti viimeisistä hetkistäsi.
+
+Q: Haluan säilyttää taitotasoni ja XP:ni kuoleman jälkeen, onnistuuko se tällä?
+A: Ei, se on juuri päinvastaista kuin mihin tämä modi on tarkoitettu. Työstän kuitenkin Quick Respawn -nimistä versiota, joka tekee juuri sen, pysy kuulolla.
+
+Q: Miksi Quick Restart -painikkeet ovat harmaina?
+A: Joko modi otettiin käyttöön kesken tallennuksen, jolloin hahmotietoja ei tallennettu (se tapahtuu hahmon luonnissa), tai kuolit liian nopeasti, jotta tallennus ehtisi valmistua (se tapahtuu hetki syntymisen jälkeen). Valitse kerran "Jatka uudella hahmolla", niin painikkeet toimivat seuraavasta kuolemastasi alkaen. Jos tämä toistuu, kyseessä voi olla merkittävä yhteensopimattomuus toisen modin kanssa, kerro siitä minulle!
+
+Q: Poistaako Uusi maailma nykyisen maailmani?
+A: Ei. Uusi maailma luo täysin uuden maailman erilliseksi tallennukseksi. Edellinen maailma löytyy yhä Lataa-valikosta. Sama maailma jatkaa samassa tallennuksessa.
+
+Modi on saatavilla 29 kielellä.
+
+Kerro palautteesi kommenttiosiossa.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

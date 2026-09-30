@@ -1,0 +1,86 @@
+[img]https://i.imgur.com/Pu2nMwd.gif[/img]
+
+Thêm bảng Quick Restart vào màn hình tử vong, giúp bạn quay lại trò chơi nhanh hơn đáng kể so với quy trình thông thường.
+Hai lựa chọn: bắt đầu lại trong một thế giới mới hoặc hồi sinh trong cùng thế giới, cả hai đều khôi phục nhân vật gốc của bạn.
+
+Nhân vật được lưu lúc TẠO và tự động áp dụng lại:
+- Tên, giới tính, nghề nghiệp
+- Đặc điểm, kỹ năng và công thức đã biết
+- Toàn bộ ngoại hình: tóc, râu, màu tóc, màu da, lông trên cơ thể, chân tóc lởm chởm, râu lởm chởm
+- Toàn bộ quần áo đang mặc cùng màu sắc và biến thể họa tiết
+- Loại giọng, cao độ và tiền tố
+- Cân nặng nhân vật
+- Khu vực xuất hiện
+
+Cài đặt sandbox được tự động ghi lại ngay sau khi bạn xuất hiện. Nếu chúng đã thay đổi kể từ khi tạo nhân vật, nút Thế giới mới sẽ hỏi bạn chọn giữa cài đặt gốc và cài đặt hiện tại.
+
+Nếu bạn chọn "Tiếp tục với nhân vật mới" thay vì dùng Quick Restart, nhân vật mới đó sẽ trở thành bản gốc mới được tải lại ở lần Quick Restart tiếp theo.
+
+Nếu bật mod này giữa chừng một bản lưu, các nút Quick Restart sẽ bị vô hiệu hóa vì chưa có dữ liệu nhân vật nào được lưu (dữ liệu được lưu khi tạo nhân vật). Chọn "Tiếp tục với nhân vật mới" một lần và Quick Restart sẽ dùng được từ lần chết tiếp theo.
+
+[img]https://i.imgur.com/gqWYFPL.gif[/img]
+
+Nút xúc xắc trên bảng Quick Restart mở cửa sổ Tùy chọn ngẫu nhiên. Mỗi mục có thể đặt là Giữ nguyên (áp dụng lại nhân vật đã lưu) hoặc Ngẫu nhiên:
+- Giới tính: chọn ngẫu nhiên giới tính; phần ngoại hình nào chuyển được thì được giữ lại
+- Ngoại hình: chọn ngẫu nhiên tóc, râu, màu tóc và màu da
+- Tên: tạo ngẫu nhiên tên và họ mới
+- Nghề nghiệp: chọn ngẫu nhiên nghề nghiệp; đặc điểm cũng được chọn ngẫu nhiên theo, vì nghề mới làm thay đổi ngân sách điểm
+- Đặc điểm: chọn ngẫu nhiên một bộ đặc điểm mới, tuân thủ điểm đặc điểm của thế giới và các quy tắc loại trừ lẫn nhau
+- Quần áo: mặc cho bạn một bộ trang phục ngẫu nhiên từ kho trang phục của màn hình tạo nhân vật
+- Khu vực xuất hiện: chọn ngẫu nhiên một khu vực trong số các khu vực có sẵn cho bản lưu, kể cả bản đồ mod
+
+Chỉ với Thế giới mới:
+- Seed: tạo seed thế giới mới
+- Zombie: ngẫu nhiên hóa hoàn toàn cài đặt zombie
+- Cài đặt sandbox: ngẫu nhiên hóa hoàn toàn mọi thứ còn lại, zombie tuân theo tùy chọn Zombie. Nó THẬT SỰ ngẫu nhiên và thế giới có thể trở nên cực đoan hoặc gần như không chơi nổi. Bạn đã được cảnh báo... hai lần, còn có cả cửa sổ cảnh báo nữa.
+- Cài đặt sandbox của mod: ngẫu nhiên hóa hoàn toàn các tùy chọn sandbox do các mod khác của bạn thêm vào (chỉ hiện khi có ít nhất một mod đang bật thêm tùy chọn sandbox)
+
+[img]https://i.imgur.com/Y6jzQpX.png[/img]
+
+Quick Restart can thiệp vào rất nhiều cơ chế của trò chơi. Nó đọc và ghi lại:
+- Tạo nhân vật: tên, giới tính, nghề nghiệp và đặc điểm
+- Kỹ năng, XP và công thức đã biết
+- Ngoại hình và giọng nói
+- Quần áo đang mặc và vật phẩm trong bộ khởi đầu
+- Dữ liệu mod của nhân vật và descriptor (đây thường là cách tùy biến nhân vật từ mod được giữ lại sau khi khởi động lại)
+- Khu vực xuất hiện và chọn bản đồ
+- Tạo thế giới: cài đặt sandbox và seed thế giới
+- Danh sách mod mặc định (chỉ với Thế giới mới, được sao lưu và khôi phục tự động)
+- Giao diện màn hình tử vong
+
+Một mod thay đổi một trong các cơ chế này theo cách mà Quick Restart không lường trước có thể gây ra vấn đề tương thích. Trường hợp thường gặp nhất: không thể lưu dữ liệu nhân vật hoặc thế giới, và khi bạn chết, các nút Quick Restart báo rằng không có dữ liệu nào được lưu. Nếu gặp tình huống này, vui lòng đăng bài trong thảo luận Bugs kèm danh sách mod của bạn, tôi sẽ cố gắng mở rộng các trường hợp mà mod xử lý được.
+
+Các vật phẩm mod không thể ghi lại sẽ đơn giản được bỏ qua: chúng sẽ không được áp dụng lại khi Quick Restart, còn mọi thứ khác thì sẽ được áp dụng.
+
+[img]https://i.imgur.com/HQ2KJLs.png[/img]
+
+Trò chơi không giải phóng toàn bộ bộ nhớ khi tải lại một thế giới. Đây là lỗi của engine: nó xảy ra dù có hay không có mod này, nhưng khởi động lại thường xuyên khiến nó lộ ra nhanh hơn.
+
+Quick Restart theo dõi việc này giúp bạn:
+- Nó ước tính còn bao nhiêu lần khởi động lại trước khi trò chơi hết bộ nhớ.
+- Khi con số đó thấp, một cảnh báo sẽ hiện ra lúc bạn dùng Quick Restart, không bao giờ trong lúc đang chơi.
+- Khi đó bạn có thể đóng trò chơi (thế giới mới sẽ tự tải ngay khi bạn mở lại) hoặc tiếp tục mà không đóng.
+- Ước tính tự hiệu chỉnh theo máy và danh sách mod của bạn theo thời gian.
+
+Nếu bạn mở lại trò chơi sau đó thay vì ngay lập tức, một hộp thoại ở menu chính sẽ hỏi bạn có còn muốn thế giới mới đang chờ đó không.
+
+Mẹo: Càng nhiều zombie, bạn càng phải khởi động lại trò chơi sớm, hãy nhớ điều đó khi thiết lập ván tiếp theo!
+
+Hy vọng The Indie Stone sẽ sớm sửa lỗi này để tôi có thể gỡ phần này đi, nhưng trong lúc chờ đợi, đây là cách tốt nhất tôi có thể làm để giảm thiểu nó! Hãy cho tôi biết cảm nhận của bạn.
+
+[img]https://i.imgur.com/f9qefDM.png[/img]
+
+Q: Mod có hoạt động trong chế độ nhiều người chơi không?
+A: Có, Quick Restart cùng thế giới hoạt động trong chế độ nhiều người chơi. Quick Restart thế giới mới chỉ dành cho chơi đơn và cũng bị tắt khi chia đôi màn hình. (Bạn đâu muốn xóa thế giới mà mọi người khác đang chơi!... Đúng không?)
+
+Q: Tôi gặp lỗi, tôi nên làm gì?
+A: Đăng bài trong thảo luận Bugs kèm danh sách mod và mô tả chuyện đã xảy ra. Nếu được, hãy dán lỗi từ console.txt của bạn (nằm trong C:\Users\TênCủaBạn\Zomboid), việc tìm nguyên nhân sẽ nhanh hơn nhiều.
+
+Q: Tại sao các nút Quick Restart bị mờ đi?
+A: Hoặc mod được bật giữa chừng một bản lưu nên không có dữ liệu nhân vật nào được ghi lại (việc này diễn ra khi tạo nhân vật), hoặc bạn chết quá nhanh trước khi việc ghi lại hoàn tất (nó chạy ngay sau khi xuất hiện). Chọn "Tiếp tục với nhân vật mới" một lần và các nút sẽ hoạt động từ lần chết tiếp theo. Nếu chuyện này cứ lặp lại, có thể có sự không tương thích nghiêm trọng với một mod khác, hãy cho tôi biết!
+
+Mod có sẵn bằng 29 ngôn ngữ.
+
+Cứ thoải mái để lại mọi góp ý trong phần bình luận.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

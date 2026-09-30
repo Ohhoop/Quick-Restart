@@ -1,0 +1,104 @@
+[img]https://i.imgur.com/Pu2nMwd.gif[/img]
+
+Přidává na obrazovku smrti panel Quick Restart, který vás dostane zpět do hry výrazně rychleji než běžný postup.
+Dvě možnosti: restartovat v novém světě nebo se znovu objevit ve stejném světě, obě obnovují vaši původní postavu.
+
+Postava je uložena při VYTVOŘENÍ a automaticky znovu aplikována:
+- Jméno, pohlaví, povolání
+- Vlastnosti, dovednosti a známé recepty
+- Úplný vzhled: vlasy, vousy, barva vlasů, odstín pleti, tělesné ochlupení, strniště vlasů, strniště vousů
+- Všechno nošené oblečení s barvami a variantami textur
+- Typ hlasu, výška a předpona
+- Váha postavy
+- Startovní region
+
+Nastavení sandboxu se automaticky zachytí krátce po spawnu. Pokud se od vytvoření vaší postavy změnilo, tlačítko Nový svět vás vyzve, abyste si vybrali mezi původním a současným nastavením.
+
+Pokud místo Quick Restart zvolíte "Pokračovat s novou postavou", tato nová postava se stane novým originálem, který se načte při příštím Quick Restart.
+
+Pokud tento mod povolíte uprostřed rozehrané hry, tlačítka Quick Restart budou vypnutá, protože žádná data postavy nebyla uložena - ukládají se při vytvoření postavy. Jednou dejte "Pokračovat s novou postavou" a Quick Restart bude dostupný od vaší příští smrti.
+
+[img]https://i.imgur.com/gqWYFPL.gif[/img]
+
+Tlačítko s kostkou na panelu Quick Restart otevře okno Možnosti randomizéru. Každou kategorii lze nastavit na Ponechat (znovu aplikuje vaši uloženou postavu) nebo Náhodně:
+- Pohlaví: vylosuje pohlaví; vše přenositelné ze vzhledu zůstane zachováno
+- Vzhled: vylosuje vlasy, vousy, barvu vlasů a odstín pleti
+- Jméno: vylosuje nové křestní jméno a příjmení
+- Povolání: vylosuje povolání; vlastnosti se losují s ním, protože nové povolání mění bodový rozpočet
+- Vlastnosti: vylosuje novou sadu vlastností, která respektuje bodový rozpočet světa a vzájemná vyloučení
+- Oblečení: obleče vás do náhodného oblečení z nabídky oděvů z tvorby postavy
+- Startovní region: vylosuje region z těch, které jsou v uložené hře dostupné, včetně modovaných map
+
+Pouze Nový svět:
+- Seed: vygeneruje nový seed světa
+- Zombie: zcela náhodně změní nastavení zombie
+- Nastavení sandboxu: zcela náhodně změní všechno ostatní, zombie se řídí možností Zombie. Je to OPRAVDU náhodné a svět může být extrémní nebo sotva hratelný. Byli jste varováni... dvakrát, je tu i varovné okno.
+- Nastavení sandboxu modů: zcela náhodně změní sandboxové možnosti přidané vašimi ostatními mody (zobrazuje se jen tehdy, když alespoň jeden aktivní mod přidává sandboxové možnosti)
+
+[img]https://i.imgur.com/Y6jzQpX.png[/img]
+
+Quick Restart se dotýká mnoha herních mechanik. Čte a přepisuje:
+- Vytvoření postavy: jméno, pohlaví, povolání a vlastnosti
+- Dovednosti, zkušenosti a známé recepty
+- Vzhled a hlas
+- Nošené oblečení a položky startovní výbavy
+- Modová data postavy a deskriptoru (díky tomu obvykle modované přizpůsobení postavy přežije restart)
+- Startovní regiony a výběr mapy
+- Vytvoření světa: nastavení sandboxu a seed světa
+- Výchozí seznam modů (pouze Nový svět, zálohuje se a automaticky obnovuje)
+- Rozhraní obrazovky smrti
+
+Mod, který změní jednu z těchto mechanik způsobem, jaký Quick Restart neočekává, může způsobit problémy s kompatibilitou. Nejčastější je tento: data postavy nebo světa se nepodaří uložit a po smrti vám tlačítka Quick Restart oznámí, že žádná data nebyla uložena. Pokud se vám to stane, napište prosím zprávu do diskuse Bugs se seznamem svých modů, podívám se, co mohu udělat, abych rozšířil scénáře, které mod zvládá.
+
+Modované předměty, které nelze zachytit, se jednoduše přeskočí: při Quick Restart se znovu neaplikují, všechno ostatní by se aplikovat mělo.
+
+[img]https://i.imgur.com/HQ2KJLs.png[/img]
+
+Hra neuvolní všechnu svou paměť, když se svět znovu načte. Je to problém enginu: děje se to s tímto modem i bez něj, ale časté restarty ho zviditelní rychleji.
+
+Quick Restart to za vás hlídá:
+- Odhaduje, kolik restartů zbývá, než hře dojde paměť.
+- Když se toto číslo sníží, zobrazí se varování ve chvíli, kdy použijete Quick Restart, nikdy během hraní.
+- Můžete pak hru zavřít (nový svět se sám načte, jakmile ji znovu spustíte), nebo pokračovat bez zavření.
+- Odhad se časem sám kalibruje podle vašeho stroje a seznamu modů.
+
+Pokud hru spustíte později místo hned, okno v hlavním menu se vás zeptá, jestli ten čekající nový svět stále chcete.
+
+Tip: Čím víc zombie máte, tím dřív budete muset hru restartovat, takže na to myslete při přípravě dalšího běhu!
+
+Snad to The Indie Stone brzy opraví a budu moct tohle všechno odstranit, ale do té doby je to to nejlepší, co jsem dokázal udělat pro zmírnění! Dejte mi vědět, jak to funguje.
+
+[img]https://i.imgur.com/f9qefDM.png[/img]
+
+Q: Odstranil jsi běžné možnosti po smrti?
+A: Ne, všechny tam pořád jsou. Quick Restart dokonce odstraňuje vanilla prodlevu, takže se objeví okamžitě místo pomalého prolínání.
+
+Q: Funguje to v multiplayeru?
+A: Ano, Quick Restart ve stejném světě v multiplayeru funguje. Quick Restart do nového světa je pouze pro jednoho hráče a je také vypnutý na rozdělené obrazovce. (Nechcete přece smazat svět, na kterém hrají všichni ostatní!... Že ne?)
+
+Q: Vrátí mi to XP, které jsem měl před smrtí?
+A: Ne. Postava se ukládá při vytvoření, takže začínáte znovu se svými původními počátečními dovednostmi a XP. Vše, co jste během hry získali, je ztraceno. Je to rychlý restart, ne vzkříšení.
+
+Q: Mám bug, co mám dělat?
+A: Napište zprávu do diskuse Bugs se seznamem svých modů a popisem toho, co se stalo. Pokud můžete, vložte chybu ze svého console.txt (najdete ho v C:\Users\VaseJmeno\Zomboid), výrazně to urychlí hledání příčiny.
+
+Q: Můžu randomizovat jen některé věci, třeba vzhled, a zbytek si nechat?
+A: Ano. Tlačítko s kostkou umožňuje nastavit každou kategorii (pohlaví, vzhled, jméno, povolání, vlastnosti, oblečení, startovní region, seed, zombie, sandbox, sandbox modů) nezávisle na Ponechat nebo Náhodně.
+
+Q: Můžu restartovat z hlavního menu / bez umírání?
+A: Ručně ne, panel žije jen na obrazovce smrti. Hlavní menu pouze naváže na nový svět, který při zavření hry ještě čekal. Pokud vás právě kousli, užijte si poslední chvíle.
+
+Q: Chci si po smrti nechat úrovně dovedností a XP, umí to tenhle mod?
+A: Ne, to je přesný opak toho, k čemu tento mod slouží. Ale pracuji na variantě jménem Quick Respawn, která bude dělat přesně tohle, sledujte novinky.
+
+Q: Proč jsou tlačítka Quick Restart šedá?
+A: Buď byl mod povolen uprostřed rozehrané hry, takže nebyla zachycena žádná data postavy (děje se to při vytvoření postavy), nebo jste zemřeli příliš rychle na to, aby se zachycení stihlo dokončit (probíhá chvilku po spawnu). Jednou dejte "Pokračovat s novou postavou" a tlačítka budou fungovat od vaší příští smrti. Pokud se to opakuje, může jít o závažnou nekompatibilitu s jiným modem, dejte mi prosím vědět!
+
+Q: Smaže Nový svět můj současný svět?
+A: Ne. Nový svět vygeneruje zbrusu nový svět jako samostatnou uloženou hru. Předchozí svět je stále v menu Načíst. Stejný svět pokračuje ve stejné uložené hře.
+
+Mod je dostupný ve 29 jazycích.
+
+Jakoukoli zpětnou vazbu klidně napište do komentářů.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

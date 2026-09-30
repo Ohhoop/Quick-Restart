@@ -1,0 +1,98 @@
+[img]https://i.imgur.com/Pu2nMwd.gif[/img]
+
+Ajoute un panneau Quick Restart sur l'écran de mort qui vous remet en jeu bien plus rapidement que le processus normal.
+Deux options : redémarrer dans un NOUVEAU MONDE ou réapparaître dans le MÊME MONDE, toutes deux en restaurant votre personnage d'origine.
+
+Le personnage est enregistré à la CRÉATION et réappliqué automatiquement :
+- Nom, sexe, métier
+- Traits, compétences et recettes connues
+- Apparence complète : cheveux, barbe, couleur des cheveux, teint, pilosité corporelle, repousse des cheveux, barbe naissante
+- Tous les vêtements portés avec couleurs et variantes de texture
+- Type de voix, ton et préfixe
+- Poids du personnage
+- Région d'apparition
+
+Les réglages sandbox sont capturés automatiquement peu après votre apparition. S'ils ont changé depuis la création de votre personnage, le bouton NOUVEAU MONDE vous demandera de choisir entre les réglages d'origine et les réglages actuels.
+
+Si vous choisissez de « Continuer avec un nouveau personnage » au lieu d'utiliser Quick Restart, ce nouveau personnage deviendra l'original qui sera rechargé au prochain Quick Restart.
+
+Si ce mod est activé en cours de partie, les boutons Quick Restart seront désactivés puisqu'aucune donnée de personnage n'a été enregistrée. Faites « Continuer avec un nouveau personnage » une fois et Quick Restart sera disponible dès votre prochaine mort.
+
+[img]https://i.imgur.com/gqWYFPL.gif[/img]
+
+Un bouton de dé sur le panneau Quick Restart ouvre la fenêtre OPTIONS DE RANDOMISATION. Chaque catégorie peut être définie sur Garder (réappliquer votre personnage enregistré) ou Aléatoire :
+- Sexe : tire un sexe au hasard ; tout ce qui est transférable de l'apparence est conservé
+- Apparence : tire les cheveux, la barbe, la couleur de cheveux et le teint
+- Nom : tire un nouveau prénom et un nouveau nom
+- Métier : tire un métier au hasard ; les traits sont tirés avec lui, car un nouveau métier change le budget de points
+- Traits : tire un nouvel ensemble de traits qui respecte les points de traits du monde et les exclusions mutuelles
+- Vêtements : vous habille d'une tenue aléatoire parmi les tenues de la création de personnage
+- Région d'apparition : tire une région parmi celles disponibles pour la partie, cartes moddées incluses
+
+NOUVEAU MONDE seulement :
+- Seed : génère un nouveau seed du monde
+- Zombies : randomise complètement les réglages des zombies
+- Réglages sandbox : randomise complètement tout le reste, les zombies suivent l'option Zombies. C'est VRAIMENT aléatoire et le monde peut s'avérer extrême ou à peine jouable. Vous avez été averti... deux fois, il y a aussi une fenêtre d'avertissement.
+- Réglages sandbox des mods : randomise complètement les options sandbox ajoutées par vos autres mods (affiché seulement si au moins un mod actif ajoute des options sandbox)
+
+[img]https://i.imgur.com/Y6jzQpX.png[/img]
+
+Quick Restart touche à beaucoup de mécaniques du jeu. Il lit et réécrit :
+- Création de personnage : nom, sexe, métier et traits
+- Compétences, XP et recettes connues
+- Apparence et voix
+- Vêtements portés et objets du kit de démarrage
+- Données de mod du personnage et du descripteur (c'est ainsi que la personnalisation moddée du personnage survit généralement à un redémarrage)
+- Régions d'apparition et sélection de carte
+- Création du monde : réglages sandbox et seed du monde
+- La liste de mods par défaut (NOUVEAU MONDE seulement, sauvegardée puis restaurée automatiquement)
+- L'interface de l'écran de mort
+
+Un mod qui modifie l'une de ces mécaniques d'une manière que Quick Restart n'attend pas peut causer des problèmes de compatibilité. Le plus fréquent : les données du personnage ou du monde ne peuvent pas être enregistrées, et une fois mort, les boutons Quick Restart vous indiquent qu'aucune donnée n'a été enregistrée. Si cela vous arrive, postez un message dans la discussion Bugs avec votre liste de mods, je verrai ce que je peux faire.
+
+Les objets moddés qui ne peuvent pas être capturés sont simplement ignorés : ils ne seront pas réappliqués lors d'un Quick Restart, tout le reste devrait l'être.
+
+[img]https://i.imgur.com/HQ2KJLs.png[/img]
+
+Le jeu ne libère pas toute sa mémoire quand un monde est rechargé. C'est un problème du moteur : il survient avec ou sans ce mod, mais des redémarrages fréquents le font apparaître plus vite.
+
+Quick Restart le surveille pour vous :
+- Il estime combien de redémarrages restent avant que le jeu ne soit à court de mémoire.
+- Quand ce nombre devient bas, un avertissement s'affiche au moment où vous utilisez Quick Restart, jamais pendant le jeu.
+- Vous pouvez alors fermer le jeu (le nouveau monde se chargera tout seul dès que vous le relancerez) ou continuer sans fermer.
+- L'estimation se calibre d'elle-même selon votre machine et votre liste de mods au fil du temps.
+
+Si vous relancez le jeu plus tard au lieu de tout de suite, une fenêtre au menu principal vous demandera si vous voulez toujours ce nouveau monde en attente.
+
+Astuce : plus vous avez de zombies, plus vite vous devrez redémarrer votre jeu, alors gardez ça en tête en préparant votre prochaine partie !
+
+Avec un peu de chance The Indie Stone corrigera ça rapidement et je pourrai retirer tout ceci, mais en attendant, c'est le mieux que j'ai pu faire pour l'atténuer ! Dites-moi ce que vous en pensez.
+
+[img]https://i.imgur.com/f9qefDM.png[/img]
+
+Q : As-tu supprimé les options de mort normales ?
+A : Non, elles sont toutes encore là. Quick Restart supprime même le délai vanilla, elles apparaissent donc immédiatement au lieu d'apparaître lentement en fondu.
+
+Q : Est-ce que ça fonctionne en multijoueur ?
+A : Oui, Quick Restart dans le même monde fonctionne en multijoueur. Quick Restart en nouveau monde est réservé au solo et également désactivé en écran partagé. (Vous ne voulez pas supprimer le monde sur lequel tout le monde joue !... Non ?)
+
+Q : J'ai un bug, que dois-je faire ?
+A : Postez un message dans la discussion Bugs avec votre liste de mods et une description de ce qui s'est passé. Si possible, collez l'erreur de votre console.txt (dans C:\Users\VotreNom\Zomboid), ça accélère beaucoup la recherche de la cause.
+
+Q : Puis-je redémarrer depuis le menu principal / sans mourir ?
+A : Pas manuellement, le panneau ne vit que sur l'écran de mort. Le menu principal ne fait que reprendre un nouveau monde encore en attente quand le jeu a été fermé. Si vous venez de vous faire mordre, profitez de vos derniers instants.
+
+Q : Je veux garder mes niveaux de compétences et mon XP après la mort, est-ce que ce mod peut faire ça ?
+A : Non, c'est l'opposé de ce pour quoi ce mod existe. Mais je travaille sur une variante appelée Quick Respawn qui fera exactement ça, restez à l'affût.
+
+Q : Pourquoi les boutons Quick Restart sont-ils grisés ?
+A : Soit le mod a été activé en cours de partie, donc aucune donnée de personnage n'a été capturée (ça se fait à la création du personnage), soit vous êtes mort trop vite pour que la capture se termine (elle s'exécute juste après l'apparition). Faites « Continuer avec un nouveau personnage » une fois et les boutons fonctionneront dès votre prochaine mort. Si ça se reproduit, il y a peut-être une incompatibilité importante avec un autre mod, faites-le-moi savoir !
+
+Q : Est-ce que NOUVEAU MONDE supprime mon monde actuel ?
+A : Non. NOUVEAU MONDE génère un tout nouveau monde dans une sauvegarde séparée. Le monde précédent est toujours là dans le menu Charger. MÊME MONDE continue dans la même sauvegarde.
+
+Le mod est disponible en 29 langues.
+
+N'hésitez pas à laisser vos retours dans les commentaires.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

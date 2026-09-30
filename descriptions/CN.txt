@@ -16,7 +16,7 @@
 
 如果你选择"以新角色继续"而不使用Quick Restart，新角色将成为下次Quick Restart时重新加载的新原始角色。
 
-如果在已有存档中途启用此模组，Quick Restart按钮将被禁用，因为没有保存角色数据——数据是在角色创建时保存的。执行一次"以新角色继续"，Quick Restart将从你的下一次死亡开始可用。
+如果在已有存档中途启用此模组，Quick Restart按钮将被禁用，因为没有保存角色数据（数据是在角色创建时保存的）。执行一次"以新角色继续"，Quick Restart将从你的下一次死亡开始可用。
 
 [img]https://i.imgur.com/gqWYFPL.gif[/img]
 

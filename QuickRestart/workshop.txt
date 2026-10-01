@@ -1,6 +1,6 @@
 version=1
 id=3699503439
-title=Quick Restart [B42.20 Stable]
+title=Quick Restart [B42.20]
 description=[img]https://i.imgur.com/Pu2nMwd.gif[/img]
 description=
 description=Adds a Quick Restart panel on the death screen that gets you back into the game significantly faster than the normal process.

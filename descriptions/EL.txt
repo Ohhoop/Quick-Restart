@@ -81,3 +81,6 @@ A: Γράψτε στη συζήτηση Bugs με τη λίστα mod σας κ�
 Μοιραστείτε τη γνώμη σας στα σχόλια.
 
 [img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3699503439
+Mod ID: QuickRestart

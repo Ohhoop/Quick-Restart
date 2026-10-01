@@ -79,3 +79,6 @@ A: Напишите в обсуждении Bugs, приложив список 
 Не стесняйтесь делиться отзывами в комментариях.
 
 [img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3699503439
+Mod ID: QuickRestart

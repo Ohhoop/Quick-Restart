@@ -105,3 +105,6 @@ Mod ini tersedia dalam 29 bahasa.
 Jangan ragu memberikan masukan di bagian komentar.
 
 [img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3699503439
+Mod ID: QuickRestart

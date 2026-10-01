@@ -75,3 +75,6 @@ A: เปิดม็อดกลางเซฟ หรือตายเร็�
 แสดงความเห็นได้ในช่องคอมเมนต์
 
 [img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3699503439
+Mod ID: QuickRestart
